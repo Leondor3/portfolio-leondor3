@@ -1,0 +1,156 @@
+"use client";
+
+import React, { useEffect, useState, useContext } from "react";
+import { Lightning } from "@phosphor-icons/react";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import logoReact from "./../assets/logo-react.svg";
+import logoJavascript from "../assets/logo-javascript.svg";
+import logoHtml from "../assets/logo-html.svg";
+import logoTailwind from "../assets/logo-tailwind.svg";
+import logoStyled from "../assets/logo-styled.svg";
+import logoBootstrap from "../assets/logo-bootstrap.svg";
+import logoTypescript from "../assets/logo-typescript.svg";
+import logoNext from "../assets/logo-next.svg";
+import logoRadix from "../assets/logo-radix.svg";
+import logoCSS from "../assets/logo-css.svg";
+import logoCypress from "../assets/logo-cypress.svg";
+import logoSass from "../assets/logo-sass.svg";
+import { ThemeContext } from "@/theme-context";
+import Image from "next/image";
+
+interface TechnologyProps {
+  key: number;
+  link: any;
+  title: string;
+}
+
+export function Technology() {
+  const controls = useAnimation();
+  const { ref, inView, entry } = useInView({
+    threshold: 0.2,
+    triggerOnce: true,
+  });
+
+  const { theme, setTheme } = useContext(ThemeContext);
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    } else {
+      controls.start("hidden");
+    }
+  }, [controls, inView]);
+
+  const technology: TechnologyProps[] = [
+    {
+      key: 1,
+      title: "React",
+      link: logoReact,
+    },
+    {
+      key: 2,
+      title: "Javascript",
+      link: logoJavascript,
+    },
+    {
+      title: "HTML",
+      key: 3,
+      link: logoHtml,
+    },
+    {
+      key: 4,
+      title: "CSS",
+      link: logoCSS,
+    },
+    {
+      key: 10,
+      title: "Typescript",
+      link: logoTypescript,
+    },
+    {
+      key: 5,
+      title: "TailwindCSS",
+      link: logoTailwind,
+    },
+    {
+      key: 6,
+      title: "Bootstrap",
+      link: logoBootstrap,
+    },
+    {
+      key: 7,
+      title: "Styled Components",
+      link: logoStyled,
+    },
+    {
+      key: 8,
+      title: "NextJS",
+      link: logoNext,
+    },
+    {
+      key: 9,
+      title: "Cypress",
+      link: logoCypress,
+    },
+
+    {
+      title: "Radix UI",
+      key: 11,
+      link: logoRadix,
+    },
+    {
+      title: "Sass",
+      key: 12,
+      link: logoSass,
+    },
+  ];
+  return (
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0 }}
+      animate={controls}
+      variants={{
+        visible: { opacity: 1, x: 0 },
+        hidden: { opacity: 0, x: -100 },
+      }}
+      transition={{ duration: 1, delay: 0.5 }}
+      className="mx-auto relative pt-28 pb-32"
+      id="technology"
+    >
+      <div className="text-center max-lg:mx-5 gap-2">
+        <span className="text-blue-400 leading-relaxed">Habilidades</span>
+        <h1
+          className={`${
+            theme == false ? "text-light" : "text-dark"
+          } text-4xl font-bold `}
+        >
+          Habilidades em Desenvolvimento Web
+        </h1>
+        <p
+          className={`${
+            theme == false ? "text-slate-400" : "text-zinc-800"
+          } mt-4`}
+        >
+          Conheça as Linguagens, Tecnologias e Ferramentas que Domino
+        </p>
+      </div>
+      <div className="flex flex-col items-center">
+        <div className="grid gap-6 grid-cols-6 grid-flow-row mt-8 place-items-center w-[46rem] mx-auto max-lg:grid-cols-3 max-lg:gap-16 max-lg:mx-5 max-sm:grid-cols-3 max-sm:w-max max-sm:gap-8">
+          {technology.map((item) => {
+            return (
+              <div
+                key={item.title}
+                className={`p-2 rounded-md h-16 w-16 justify-center flex items-center
+              ${theme ? "bg-slate-400" : "bg-bg-dark-secundary"}
+            `}
+              >
+                <Image width={40} src={item.link} title={item.title} alt="" />
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </motion.div>
+  );
+}

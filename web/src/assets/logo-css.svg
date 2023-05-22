@@ -1,0 +1,14 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" data-inject-url="https://iuricode.com/efront/assets/icons/css.svg">
+<path d="M6.66699 5L9.63033 33.4833L20.0003 36.6667L30.3703 33.4833L33.3337 5H6.66699Z" stroke="url(#paint0_linear_601_213--inject-25)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M11.667 11.6667H27.5003L25.8337 28.3334L20.0003 30.0001L14.167 28.3334L13.7503 24.1667M26.667 19.1667H12.5003" stroke="url(#paint1_linear_601_213--inject-25)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+<defs>
+<linearGradient id="paint0_linear_601_213--inject-25" x1="28.1739" y1="3.41667" x2="8.95143" y2="18.3926" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2563eb"></stop>
+<stop offset="1" stop-color="#2563eb"></stop>
+</linearGradient>
+<linearGradient id="paint1_linear_601_213--inject-25" x1="24.4367" y1="10.7501" x2="13.2424" y2="19.6944" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2563eb"></stop>
+<stop offset="1" stop-color="#2563eb"></stop>
+</linearGradient>
+</defs>
+</svg>
