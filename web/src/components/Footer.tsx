@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useContext } from "react";
 import { GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
@@ -9,11 +9,11 @@ export function Footer() {
 
   return (
     <>
-      <hr className="border border-zinc-800"/>
-      <div
+      <hr className="border border-zinc-800" />
+      <footer
         className={`${
           theme == false ? "bg-[zinc-900]" : "bg-white"
-        } w-full text-center flex itens-center justify-center py-4`}
+        } w-full text-center flex itens-center justify-center py-4 `}
       >
         <div className="flex w-full justify-between max-lg:px-4">
           <div>
@@ -34,7 +34,7 @@ export function Footer() {
             />
           </div>
         </div>
-      </div>
+      </footer>
     </>
   );
 }

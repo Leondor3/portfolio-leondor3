@@ -8,13 +8,11 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Technology } from "@/components/Technologys";
 import { ThemeContext } from "@/theme-context";
-import { Roboto_Flex as Roboto } from "next/font/google";
 import { Inter } from "next/font/google";
 import { useContext } from "react";
 import { Works } from "@/components/Works";
 import { ChoosenMe } from "@/components/ChooseMe";
 
-const roboto = Roboto({ subsets: ["latin"], variable: "--font-roboto" });
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export default function Home() {
@@ -27,7 +25,6 @@ export default function Home() {
       }`}
     >
       <div className="w-full max-w-[1344px] mx-auto h-screen">
-        <Header />
         <Banner />
         <About />
         <Technology />
@@ -35,7 +32,6 @@ export default function Home() {
         <Works />
         <ChoosenMe />
         <Contact />
-        <Footer />
       </div>
     </body>
   );

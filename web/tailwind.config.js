@@ -8,15 +8,19 @@ module.exports = {
     "./src/container/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: "1rem",
+    },
     extend: {
       backgroundImage: {
-        'text-gradient': 'linear-gradient(90deg, #4776e6 0%, #8e54e9 100%)',
-        'background-dark': '#090b1c',
-        'bg-ai': 'linear-gradient(260deg, #3d67ff 0%, #9773ff 50%, #efceff 80%)',
-        
+        "text-gradient": "linear-gradient(90deg, #4776e6 0%, #8e54e9 100%)",
+        "background-dark": "#090b1c",
+        "bg-ai":
+          "linear-gradient(260deg, #3d67ff 0%, #9773ff 50%, #efceff 80%)",
       },
       backgroundColor: {
-        'bg-dark-secundary': '#1c1f27',
+        "bg-dark-secundary": "#1c1f27",
       },
       fontFamily: {
         sans: "var(--font-roboto)",
