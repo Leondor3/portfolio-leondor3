@@ -41,7 +41,7 @@ export function Contact() {
   };
 
   return (
-    <div className="mt-32 flex items-start justify-center mb-32 w-full gap-6 max-lg:px-6 max-lg:flex-col">
+    <div className="mt-36 flex items-start justify-center mb-32 w-full gap-6 max-lg:px-6 max-lg:flex-col">
       <TitleSide />
       <div className="w-96 items-start flex flex-col">
         <form
