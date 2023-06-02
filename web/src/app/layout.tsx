@@ -1,7 +1,7 @@
-import { ThemeProvider } from "@/theme-context";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { ThemeProvider } from "@/context/theme-context";
 
 export const metadata = {
   title: "Portfolio",
@@ -20,11 +20,7 @@ export default function RootLayout({
       head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
     */}
       <head />
-      <ThemeProvider>
-        <Header />
-        {children}
-        <Footer />
-      </ThemeProvider>
+      <ThemeProvider>{children}</ThemeProvider>
     </html>
   );
 }

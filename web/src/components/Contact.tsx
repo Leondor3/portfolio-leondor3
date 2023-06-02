@@ -1,13 +1,13 @@
-"use client"
+"use client";
 
 import { useState, useRef, useContext } from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
-import Input from "@/lib/Input";
-import { Button } from "@/lib/Button";
+import Input from "@/common/Input";
+import { Button } from "@/common/Button";
 import { TitleSide } from "@/container/TitleSide";
-import { ThemeContext } from "@/theme-context";
+import { ThemeContext } from "@/context/theme-context";
 
 const schema = yup
   .object({

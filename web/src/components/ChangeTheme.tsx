@@ -1,6 +1,6 @@
 "use client";
 
-import { ThemeContext } from "@/theme-context";
+import { ThemeContext } from "@/context/theme-context";
 import { MoonStars, Sun } from "@phosphor-icons/react";
 import { useContext } from "react";
 

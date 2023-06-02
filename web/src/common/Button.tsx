@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { ThemeContext } from "@/theme-context";
+import { ThemeContext } from "@/context/theme-context";
 import { useContext, useEffect, useState } from "react";
 
 interface ButtonProps {
@@ -25,7 +25,7 @@ export function Button({
 
   useEffect(() => {
     setIsDisabled(disabled ? `${disabledStyles}` : "");
-  }, [disabled]);
+  }, [disabled, disabledStyles]);
 
   return (
     <button

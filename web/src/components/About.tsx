@@ -6,10 +6,11 @@ import { useInView } from "react-intersection-observer";
 import { FilePdf, LinkedinLogo } from "@phosphor-icons/react";
 import IllustrationPerfil from "../assets/illustration-perfil.jpeg";
 
-import { ThemeContext } from "@/theme-context";
-import { Button } from "@/lib/Button";
 import Image from "next/image";
-import { LinkedinIcon } from "lucide-react";
+import { ThemeContext } from "@/context/theme-context";
+import { Button } from "@/common/Button";
+import { TitleSide } from "@/container/TitleSide";
+import SectionTitle from "@/common/TitleSide";
 
 export function About() {
   const { theme, setTheme } = useContext(ThemeContext);
@@ -42,17 +43,10 @@ export function About() {
         transition={{ duration: 1, delay: 0.5 }}
         className="flex flex-col items-start max-w-[600px] h-full justify-start space-y-4"
       >
-        <div className="flex items-center gap-2 text-sm text-gray-100 before:h-px before:w-5 before:bg-blue-400">
-          <span className="text-blue-400 leading-relaxed ">Sobre mim</span>
-        </div>
-        <h1
-          className={`text-5xl ${theme == false ? "text-light" : "text-dark"}`}
-        >
-          Desenvolvedor Front-end com experiências
-          <h1 className="bg-text-gradient text-transparent bg-clip-text">
-            em React, Node e JavaScript
-          </h1>{" "}
-        </h1>{" "}
+        <SectionTitle
+          title="Desenvolvedor Front-end com experiências"
+          section="Sobre mim"
+        />
         <p className={`${theme == false ? "text-slate-400" : "text-zinc-800"}`}>
           Meu nome é Leandro de Araujo dos Santos, tenho 24 anos e sou
           desenvolvedor front-end com mais de um ano de experiência, sou
@@ -80,7 +74,11 @@ export function About() {
           </Button>
           <Button>
             <LinkedinLogo size={24} />
-            <span className={`${theme == false ? 'text-light' : 'text-blue-500'}`}>Linkedin</span>
+            <span
+              className={`${theme == false ? "text-light" : "text-blue-500"}`}
+            >
+              Linkedin
+            </span>
           </Button>
         </div>
       </motion.div>
@@ -92,7 +90,7 @@ export function About() {
           hidden: { opacity: 0, x: 100 },
         }}
         transition={{ duration: 1, delay: 0.5 }}
-        className="block max-lg:w-full max-lg:!translate-x-[100] w-[450px]"
+        className="block max-lg:w-full max-lg:!translate-x-[100] w-[450px] mix-blend-luminosity"
       >
         <Image
           className="w-full object-cover h-full"

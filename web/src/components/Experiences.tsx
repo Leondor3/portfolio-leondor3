@@ -3,9 +3,10 @@
 import react, { useState, useEffect, useContext } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { ThemeContext } from "@/theme-context";
 import ComplementaryCourses from "@/container/ComplementaryCourses";
 import Jobs from "@/container/Jobs";
+import { ThemeContext } from "@/context/theme-context";
+import SectionTitle from "@/common/TitleSide";
 
 export function SectionExperience() {
   const { theme, setTheme } = useContext(ThemeContext);
@@ -14,7 +15,7 @@ export function SectionExperience() {
     triggerOnce: true,
     threshold: 0.2, // set threshold to 50%
   });
-  
+
   useEffect(() => {
     if (inView) {
       controls.start("visible");
@@ -36,19 +37,10 @@ export function SectionExperience() {
         transition={{ duration: 1, delay: 0.5 }}
       >
         <div className="text-left relative pt-20 space-y-4">
-          <div className="flex items-center gap-2 text-sm text-gray-100 before:h-px before:w-5 before:bg-blue-400">
-            <span className="text-blue-400 leading-relaxed ">Jornada até aqui</span>
-          </div>
-          <h1
-            className={`text-4xl ${
-              theme == false ? "text-light" : "text-dark"
-            } text-bold`}
-          >
-            Minha jornada como desenvolvedor Front End: <br />
-            <span className="bg-text-gradient text-transparent bg-clip-text">
-              Aprendizados e conquistas
-            </span>
-          </h1>
+          <SectionTitle
+            title="Minha jornada como desenvolvedor Front End: Aprendizados e conquistas"
+            section="Jornada até aqui"
+          />
         </div>
         <div className="grid grid-cols-2 mt-12 gap-16 h-full max-sm:grid-cols-1 max-lg:grid-cols-1">
           <ComplementaryCourses />

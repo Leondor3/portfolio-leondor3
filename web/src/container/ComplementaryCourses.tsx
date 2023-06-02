@@ -1,8 +1,8 @@
 "use client";
 import React, { useState, useContext } from "react";
 import { Check, Code, Student } from "@phosphor-icons/react";
-import { ThemeContext } from "@/theme-context";
-import { MockupCourses } from "@/mockup";
+import { ThemeContext } from "@/context/theme-context";
+import { MockupCourses } from "@/data/mockup";
 
 interface PropsCourses {
   id: String;
@@ -16,7 +16,6 @@ interface PropsCourses {
 
 export default function ComplementaryCourses() {
   const { theme, setTheme } = useContext(ThemeContext);
-
 
   return (
     <div className="flex flex-col gap-4 h-max">
@@ -42,7 +41,10 @@ export default function ComplementaryCourses() {
         } shadow-lg w-full`}
       >
         {MockupCourses.cursos.map((curso, index) => (
-          <div className="p-4 flex flex-col space-y-2 after:h-px after:w-full after:bg-gray-500 after:mt-4" key={index}>
+          <div
+            className="p-4 flex flex-col space-y-2 after:h-px after:w-full after:bg-gray-500 after:mt-4"
+            key={index}
+          >
             <div className="flex justify-between">
               <h1
                 className={`${theme == false ? "text-white" : "text-zinc-900"}`}

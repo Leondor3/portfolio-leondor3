@@ -3,8 +3,8 @@
 import react, { useState, useContext, useEffect } from "react";
 import Link from "next/link";
 import { List } from "@phosphor-icons/react";
-import { ThemeContext } from "@/theme-context";
 import { ChangeTheme } from "./ChangeTheme";
+import { ThemeContext } from "@/context/theme-context";
 
 export function Header() {
   const { theme, setTheme } = useContext(ThemeContext);

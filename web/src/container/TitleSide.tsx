@@ -1,4 +1,4 @@
-import { ThemeContext } from "@/theme-context";
+import { ThemeContext } from "@/context/theme-context";
 import React, { useContext } from "react";
 
 export function TitleSide() {

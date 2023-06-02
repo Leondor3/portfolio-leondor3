@@ -2,8 +2,8 @@
 import react, { useContext } from "react";
 import Typewriter, { TypewriterClass } from "typewriter-effect";
 import { FilePdf, GithubLogo } from "@phosphor-icons/react";
-import { Button } from "@/lib/Button";
-import { ThemeContext } from "@/theme-context";
+import { Button } from "@/common/Button";
+import { ThemeContext } from "@/context/theme-context";
 
 const name: string = "Leandro";
 const description: string =

@@ -16,8 +16,9 @@ import logoRadix from "../assets/logo-radix.svg";
 import logoCSS from "../assets/logo-css.svg";
 import logoCypress from "../assets/logo-cypress.svg";
 import logoSass from "../assets/logo-sass.svg";
-import { ThemeContext } from "@/theme-context";
 import Image from "next/image";
+import { ThemeContext } from "@/context/theme-context";
+import SectionTitle from "@/common/TitleSide";
 
 interface TechnologyProps {
   key: number;
@@ -119,14 +120,11 @@ export function Technology() {
       id="technology"
     >
       <div className="text-center max-lg:mx-5 gap-2">
-        <span className="text-blue-400 leading-relaxed">Habilidades</span>
-        <h1
-          className={`${
-            theme == false ? "text-light" : "text-dark"
-          } text-4xl font-bold `}
-        >
-          Habilidades em Desenvolvimento Web
-        </h1>
+        <SectionTitle
+          title="Habilidades em Desenvolvimento Web"
+          section="Habilidades"
+          center
+        />
         <p
           className={`${
             theme == false ? "text-slate-400" : "text-zinc-800"

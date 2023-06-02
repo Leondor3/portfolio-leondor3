@@ -2,8 +2,8 @@
 
 import React, { useState, useContext } from "react";
 import { Check, Code } from "@phosphor-icons/react";
-import { ThemeContext } from "@/theme-context";
-import { MockupJobs } from "@/mockupJobs";
+import { ThemeContext } from "@/context/theme-context";
+import { MockupJobs } from "@/data/mockupJobs";
 
 interface PropsJobs {
   id: String;
