@@ -368,23 +368,216 @@ var target_path_src_app_page_tsx_import_Inter_arguments_subsets_latin_variable_f
 var target_path_src_app_page_tsx_import_Inter_arguments_subsets_latin_variable_font_inter_variableName_inter_default = /*#__PURE__*/__webpack_require__.n(target_path_src_app_page_tsx_import_Inter_arguments_subsets_latin_variable_font_inter_variableName_inter_);
 // EXTERNAL MODULE: external "next/dist/compiled/react"
 var react_ = __webpack_require__(8038);
-// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/animation/hooks/use-animation.mjs + 1 modules
-var use_animation = __webpack_require__(4695);
-// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/render/dom/motion.mjs + 111 modules
-var motion = __webpack_require__(7352);
-// EXTERNAL MODULE: ./node_modules/react-intersection-observer/react-intersection-observer.modern.mjs
-var react_intersection_observer_modern = __webpack_require__(663);
-// EXTERNAL MODULE: ./node_modules/@phosphor-icons/react/dist/icons/FilePdf.es.js
-var FilePdf_es = __webpack_require__(6043);
-// EXTERNAL MODULE: ./node_modules/@phosphor-icons/react/dist/icons/LinkedinLogo.es.js
-var LinkedinLogo_es = __webpack_require__(1807);
-;// CONCATENATED MODULE: ./src/assets/illustration-perfil.jpeg
-/* harmony default export */ const illustration_perfil = ({"src":"/_next/static/media/illustration-perfil.a42e34c9.jpeg","height":4000,"width":3000,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAgABgMBIgACEQEDEQH/xAAoAAEBAAAAAAAAAAAAAAAAAAAABgEBAQAAAAAAAAAAAAAAAAAAAwb/2gAMAwEAAhADEAAAAIMV7f/EABwQAAAGAwAAAAAAAAAAAAAAAAABAgMREhMxof/aAAgBAQABPwBymNBtzfSkmXZH/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERYf/aAAgBAgEBPwCaz//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMBAT8Af//Z","blurWidth":6,"blurHeight":8});
-// EXTERNAL MODULE: ./node_modules/next/image.js
-var next_image = __webpack_require__(8421);
-var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 // EXTERNAL MODULE: ./src/context/theme-context.tsx
 var theme_context = __webpack_require__(2927);
+;// CONCATENATED MODULE: ./src/common/ScrollTop.tsx
+
+
+
+function ScrollToTop() {
+    const [isVisible, setIsVisible] = (0,react_.useState)(false);
+    const { theme , setTheme  } = (0,react_.useContext)(theme_context.ThemeContext);
+    const scrollToTop = ()=>{
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    };
+    (0,react_.useEffect)(()=>{
+        // Button is displayed after scrolling for 500 pixels
+        const toggleVisibility = ()=>{
+            if (window.pageYOffset > 300) {
+                setIsVisible(true);
+            } else {
+                setIsVisible(false);
+            }
+        };
+        window.addEventListener("scroll", toggleVisibility);
+        return ()=>window.removeEventListener("scroll", toggleVisibility);
+    }, []);
+    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+        className: "fixed bottom-8 right-8 z-[99]",
+        children: isVisible && /*#__PURE__*/ jsx_runtime_.jsx("div", {
+            onClick: scrollToTop,
+            "aria-label": "scroll to top",
+            className: "flex h-10 w-10 cursor-pointer items-center bg-blue-600/20 justify-center rounded-md bg-primary text-white shadow-md transition duration-300 ease-in-out hover:bg-opacity-80",
+            children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                className: `mt-[6px] h-3 w-3 rotate-45 border-t border-l ${theme == false ? "border-white" : "border-black"}`
+            })
+        })
+    });
+}
+
+// EXTERNAL MODULE: ./node_modules/next/link.js
+var next_link = __webpack_require__(1621);
+var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
+// EXTERNAL MODULE: ./node_modules/@phosphor-icons/react/dist/icons/List.es.js
+var List_es = __webpack_require__(5807);
+// EXTERNAL MODULE: ./node_modules/@phosphor-icons/react/dist/icons/MoonStars.es.js
+var MoonStars_es = __webpack_require__(3094);
+// EXTERNAL MODULE: ./node_modules/@phosphor-icons/react/dist/icons/Sun.es.js
+var Sun_es = __webpack_require__(7765);
+;// CONCATENATED MODULE: ./src/components/ChangeTheme.tsx
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+function ChangeTheme() {
+    const { theme , setTheme  } = (0,react_.useContext)(theme_context.ThemeContext);
+    function handleThemeChange() {
+        setTheme(!theme);
+        localStorage.setItem("theme", !theme ? "dark" : "light");
+    }
+    return /*#__PURE__*/ jsx_runtime_.jsx("button", {
+        onClick: ()=>handleThemeChange(),
+        className: "max-[768px]:absolute max-[768px]:right-16",
+        children: theme == false ? /*#__PURE__*/ jsx_runtime_.jsx(MoonStars_es/* default */.Z, {
+            className: "bg-bg-dark-secundary",
+            style: {
+                borderRadius: "8px",
+                padding: "4px"
+            },
+            size: 32,
+            color: "#1178FF"
+        }) : /*#__PURE__*/ jsx_runtime_.jsx(Sun_es/* default */.Z, {
+            style: {
+                background: "#e3e3e5",
+                borderRadius: "8px",
+                padding: "4px"
+            },
+            size: 32,
+            color: "#1178FF"
+        })
+    });
+}
+
+;// CONCATENATED MODULE: ./src/components/Header.tsx
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+
+
+function Header() {
+    const { theme , setTheme  } = (0,react_.useContext)(theme_context.ThemeContext);
+    const [isBurguer, setIsBurger] = (0,react_.useState)(false);
+    const [sticky, setSticky] = (0,react_.useState)(false);
+    const handleStickyNavbar = ()=>{
+        if (window.scrollY >= 80) {
+            setSticky(true);
+        } else {
+            setSticky(false);
+        }
+    };
+    (0,react_.useEffect)(()=>{
+        window.addEventListener("scroll", handleStickyNavbar);
+    });
+    return /*#__PURE__*/ jsx_runtime_.jsx("header", {
+        className: `header top-0 left-0 z-40 flex w-full items-center bg-transparent ${sticky ? "!fixed !z-[9999] !bg-white !bg-opacity-10 shadow-sticky backdrop-blur-sm" : "absolute"}`,
+        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+            className: "container",
+            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "flex items-center justify-between h-20 gap-8",
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                        className: "font-bold bg-text-gradient text-transparent bg-clip-text",
+                        children: "Leondor3"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                        className: "absolute top-3 right-4 md:hidden",
+                        onClick: ()=>setIsBurger(!isBurguer),
+                        children: /*#__PURE__*/ jsx_runtime_.jsx(List_es/* default */.Z, {
+                            size: 32,
+                            color: "#1178FF"
+                        })
+                    }),
+                    isBurguer && /*#__PURE__*/ jsx_runtime_.jsx("nav", {
+                        className: `flex flex-col justify-start items-end absolute right-0 top-12 w-full h-2/3 z-20 ${theme == false ? "bg-bg-dark-secundary" : "bg-zinc-200"}`,
+                        children: [
+                            [
+                                "Home",
+                                "/dashboard"
+                            ],
+                            [
+                                "About",
+                                "/team"
+                            ],
+                            [
+                                "Skills",
+                                "/projects"
+                            ],
+                            [
+                                "Experience",
+                                "/reports"
+                            ],
+                            [
+                                "Works",
+                                "/reports"
+                            ],
+                            [
+                                "Contact",
+                                "/reports"
+                            ]
+                        ].map(([title, url])=>/*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                href: url,
+                                className: `w-full text-end rounded-none px-3 py-4 ${theme == false ? "text-light" : "text-dark"} font-medium hover:bg-blue-600`,
+                                children: title
+                            }, title))
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("nav", {
+                        className: "flex sm:justify-center space-x-4 max-[768px]:hidden",
+                        children: [
+                            [
+                                "Principal",
+                                "#home"
+                            ],
+                            [
+                                "Sobre",
+                                "#about"
+                            ],
+                            [
+                                "T\xe9cnologias",
+                                "#technology"
+                            ],
+                            [
+                                "Experi\xeancias",
+                                "#experiences"
+                            ],
+                            [
+                                "Trabalhos",
+                                "#works"
+                            ],
+                            [
+                                "Contato",
+                                "#contact"
+                            ]
+                        ].map(([title, url])=>/*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                href: url,
+                                onClick: (e)=>{
+                                    e.preventDefault();
+                                    const element = document.querySelector(url);
+                                    element.scrollIntoView({
+                                        behavior: "smooth"
+                                    });
+                                },
+                                className: `px-3 py-2 hover:text-blue-400 transition ${theme == false ? "text-light" : "text-dark"}`,
+                                children: title
+                            }, url))
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(ChangeTheme, {})
+                ]
+            })
+        })
+    });
+}
+
+// EXTERNAL MODULE: ./node_modules/typewriter-effect/dist/react.js
+var react = __webpack_require__(9462);
+var dist_react_default = /*#__PURE__*/__webpack_require__.n(react);
+// EXTERNAL MODULE: ./node_modules/@phosphor-icons/react/dist/icons/FilePdf.es.js
+var FilePdf_es = __webpack_require__(6043);
+// EXTERNAL MODULE: ./node_modules/@phosphor-icons/react/dist/icons/GithubLogo.es.js
+var GithubLogo_es = __webpack_require__(5455);
 ;// CONCATENATED MODULE: ./src/common/Button.tsx
 /* __next_internal_client_entry_do_not_use__ Button auto */ 
 
@@ -408,6 +601,110 @@ function Button({ children , onClickFunction , isHighlight , disabled  }) {
     });
 }
 
+;// CONCATENATED MODULE: ./src/components/Banner.tsx
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+
+
+const Banner_name = "Leandro";
+const description = "Fico feliz em v\xea-lo (a) por aqui. Espero que aproveite o conte\xfado e que eu possa te ajudar de alguma forma.";
+function Banner() {
+    const { theme , setTheme  } = (0,react_.useContext)(theme_context.ThemeContext);
+    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+        className: "positive h-screen py-16 md:py-20 lg:py-28 flex items-center justify-center sm:px-4",
+        id: "#home",
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            className: "flex items-center flex-col gap-2",
+            children: [
+                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    className: "flex items-center",
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                        className: "text-blue-400 leading-relaxed",
+                        children: "Hello Word"
+                    })
+                }),
+                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    className: "text-center",
+                    children: [
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h2", {
+                            className: `text-4xl max-md:text-3xl font-bold text-white pb-2 ${theme == false ? "text-light" : "text-dark"}`,
+                            children: [
+                                "Ol\xe1, eu sou ",
+                                Banner_name
+                            ]
+                        }),
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h1", {
+                            className: `text-5xl font-bold text-light pb-4 flex gap-2 max-md:text-3xl max-md:flex-col ${theme == false ? "text-light" : "text-dark"}`,
+                            children: [
+                                "Front-end",
+                                /*#__PURE__*/ jsx_runtime_.jsx((dist_react_default()), {
+                                    options: {
+                                        strings: [
+                                            "Developer",
+                                            "Web"
+                                        ],
+                                        autoStart: true,
+                                        loop: true,
+                                        delay: 50
+                                    }
+                                })
+                            ]
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                            className: `w-[30rem] mx-0 my-auto max-md:w-full max-md:px-4 ${theme == false ? "text-light" : "text-dark"}`,
+                            children: description
+                        }),
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            className: "flex gap-4 items-center justify-center pt-4 max-sm:flex-col max-sm:mx-5",
+                            children: [
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Button, {
+                                    isHighlight: true,
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx(FilePdf_es/* default */.Z, {
+                                            size: 24,
+                                            weight: "fill",
+                                            color: "#fff"
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            className: `text-white`,
+                                            children: "Curriculo"
+                                        })
+                                    ]
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Button, {
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx(GithubLogo_es/* default */.Z, {
+                                            size: 24,
+                                            weight: "fill",
+                                            color: `${theme == false ? "#ffffff" : "#1178FF"}`
+                                        }),
+                                        "GitHub"
+                                    ]
+                                })
+                            ]
+                        })
+                    ]
+                })
+            ]
+        })
+    });
+}
+
+// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/animation/hooks/use-animation.mjs + 1 modules
+var use_animation = __webpack_require__(4695);
+// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/render/dom/motion.mjs + 111 modules
+var motion = __webpack_require__(7352);
+// EXTERNAL MODULE: ./node_modules/react-intersection-observer/react-intersection-observer.modern.mjs
+var react_intersection_observer_modern = __webpack_require__(663);
+// EXTERNAL MODULE: ./node_modules/@phosphor-icons/react/dist/icons/LinkedinLogo.es.js
+var LinkedinLogo_es = __webpack_require__(1807);
+;// CONCATENATED MODULE: ./src/assets/illustration-perfil.jpeg
+/* harmony default export */ const illustration_perfil = ({"src":"/_next/static/media/illustration-perfil.a42e34c9.jpeg","height":4000,"width":3000,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAgABgMBIgACEQEDEQH/xAAoAAEBAAAAAAAAAAAAAAAAAAAABgEBAQAAAAAAAAAAAAAAAAAAAwb/2gAMAwEAAhADEAAAAIMV7f/EABwQAAAGAwAAAAAAAAAAAAAAAAABAgMREhMxof/aAAgBAQABPwBymNBtzfSkmXZH/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERYf/aAAgBAgEBPwCaz//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMBAT8Af//Z","blurWidth":6,"blurHeight":8});
+// EXTERNAL MODULE: ./node_modules/next/image.js
+var next_image = __webpack_require__(8421);
+var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 ;// CONCATENATED MODULE: ./src/common/TitleSide.tsx
 
 
@@ -437,7 +734,7 @@ const SectionTitle = ({ title , section , center  })=>{
 /* harmony default export */ const TitleSide = (SectionTitle);
 
 ;// CONCATENATED MODULE: ./src/components/About.tsx
-/* __next_internal_client_entry_do_not_use__ About auto */ 
+/* __next_internal_client_entry_do_not_use__ default auto */ 
 
 
 
@@ -587,262 +884,195 @@ function About() {
     });
 }
 
-// EXTERNAL MODULE: ./node_modules/typewriter-effect/dist/react.js
-var react = __webpack_require__(5187);
-var dist_react_default = /*#__PURE__*/__webpack_require__.n(react);
-// EXTERNAL MODULE: ./node_modules/@phosphor-icons/react/dist/icons/GithubLogo.es.js
-var GithubLogo_es = __webpack_require__(5455);
-;// CONCATENATED MODULE: ./src/components/Banner.tsx
-/* __next_internal_client_entry_do_not_use__ Banner auto */ 
+;// CONCATENATED MODULE: ./src/assets/logo-react.svg
+/* harmony default export */ const logo_react = ({"src":"/_next/static/media/logo-react.589d83be.svg","height":40,"width":40,"blurWidth":0,"blurHeight":0});
+;// CONCATENATED MODULE: ./src/assets/logo-javascript.svg
+/* harmony default export */ const logo_javascript = ({"src":"/_next/static/media/logo-javascript.0040a2dd.svg","height":40,"width":40,"blurWidth":0,"blurHeight":0});
+;// CONCATENATED MODULE: ./src/assets/logo-html.svg
+/* harmony default export */ const logo_html = ({"src":"/_next/static/media/logo-html.5ed9cc95.svg","height":40,"width":40,"blurWidth":0,"blurHeight":0});
+;// CONCATENATED MODULE: ./src/assets/logo-tailwind.svg
+/* harmony default export */ const logo_tailwind = ({"src":"/_next/static/media/logo-tailwind.d31d8569.svg","height":40,"width":40,"blurWidth":0,"blurHeight":0});
+;// CONCATENATED MODULE: ./src/assets/logo-styled.svg
+/* harmony default export */ const logo_styled = ({"src":"/_next/static/media/logo-styled.c7695b0f.svg","height":40,"width":40,"blurWidth":0,"blurHeight":0});
+;// CONCATENATED MODULE: ./src/assets/logo-bootstrap.svg
+/* harmony default export */ const logo_bootstrap = ({"src":"/_next/static/media/logo-bootstrap.9a46290b.svg","height":40,"width":40,"blurWidth":0,"blurHeight":0});
+;// CONCATENATED MODULE: ./src/assets/logo-typescript.svg
+/* harmony default export */ const logo_typescript = ({"src":"/_next/static/media/logo-typescript.d4aa6af9.svg","height":40,"width":40,"blurWidth":0,"blurHeight":0});
+;// CONCATENATED MODULE: ./src/assets/logo-next.svg
+/* harmony default export */ const logo_next = ({"src":"/_next/static/media/logo-next.b870d775.svg","height":40,"width":132,"blurWidth":0,"blurHeight":0});
+;// CONCATENATED MODULE: ./src/assets/logo-radix.svg
+/* harmony default export */ const logo_radix = ({"src":"/_next/static/media/logo-radix.453101d0.svg","height":40,"width":40,"blurWidth":0,"blurHeight":0});
+;// CONCATENATED MODULE: ./src/assets/logo-css.svg
+/* harmony default export */ const logo_css = ({"src":"/_next/static/media/logo-css.c061906b.svg","height":40,"width":40,"blurWidth":0,"blurHeight":0});
+;// CONCATENATED MODULE: ./src/assets/logo-cypress.svg
+/* harmony default export */ const logo_cypress = ({"src":"/_next/static/media/logo-cypress.ad3e110e.svg","height":40,"width":40,"blurWidth":0,"blurHeight":0});
+;// CONCATENATED MODULE: ./src/assets/logo-sass.svg
+/* harmony default export */ const logo_sass = ({"src":"/_next/static/media/logo-sass.27419208.svg","height":40,"width":50,"blurWidth":0,"blurHeight":0});
+;// CONCATENATED MODULE: ./src/components/Technologys.tsx
+/* __next_internal_client_entry_do_not_use__ default auto */ 
 
 
 
 
 
-const Banner_name = "Leandro";
-const description = "Fico feliz em v\xea-lo (a) por aqui. Espero que aproveite o conte\xfado e que eu possa te ajudar de alguma forma.";
-function Banner() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+function Technology() {
+    const controls = (0,use_animation/* useAnimation */._)();
+    const { ref , inView , entry  } = (0,react_intersection_observer_modern/* useInView */.YD)({
+        threshold: 0.2,
+        triggerOnce: true
+    });
     const { theme , setTheme  } = (0,react_.useContext)(theme_context.ThemeContext);
-    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        className: "positive h-screen py-16 md:py-20 lg:py-28 flex items-center justify-center sm:px-4",
-        id: "#home",
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "flex items-center flex-col gap-2",
+    (0,react_.useEffect)(()=>{
+        if (inView) {
+            controls.start("visible");
+        } else {
+            controls.start("hidden");
+        }
+    }, [
+        controls,
+        inView
+    ]);
+    const technology = [
+        {
+            key: 1,
+            title: "React",
+            link: logo_react
+        },
+        {
+            key: 2,
+            title: "Javascript",
+            link: logo_javascript
+        },
+        {
+            title: "HTML",
+            key: 3,
+            link: logo_html
+        },
+        {
+            key: 4,
+            title: "CSS",
+            link: logo_css
+        },
+        {
+            key: 10,
+            title: "Typescript",
+            link: logo_typescript
+        },
+        {
+            key: 5,
+            title: "TailwindCSS",
+            link: logo_tailwind
+        },
+        {
+            key: 6,
+            title: "Bootstrap",
+            link: logo_bootstrap
+        },
+        {
+            key: 7,
+            title: "Styled Components",
+            link: logo_styled
+        },
+        {
+            key: 8,
+            title: "NextJS",
+            link: logo_next
+        },
+        {
+            key: 9,
+            title: "Cypress",
+            link: logo_cypress
+        },
+        {
+            title: "Radix UI",
+            key: 11,
+            link: logo_radix
+        },
+        {
+            title: "Sass",
+            key: 12,
+            link: logo_sass
+        }
+    ];
+    return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(motion/* motion.div */.E.div, {
+            ref: ref,
+            initial: {
+                opacity: 0
+            },
+            animate: controls,
+            variants: {
+                visible: {
+                    opacity: 1,
+                    x: 0
+                },
+                hidden: {
+                    opacity: 0,
+                    x: -100
+                }
+            },
+            transition: {
+                duration: 1,
+                delay: 0.5
+            },
+            className: "mx-auto relative py-16 md:py-20 lg:py-28",
+            id: "technology",
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: "flex items-center",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                        className: "text-blue-400 leading-relaxed",
-                        children: "Hello Word"
-                    })
+                    className: "absolute -left-96 top-1/2 h-[288px] w-[526px] -translate-y-1/2 translate-x-1/2 rounded-full bg-[#2563eb] opacity-20 blur-full"
                 }),
                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "text-center",
+                    className: "container",
                     children: [
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h2", {
-                            className: `text-4xl max-md:text-3xl font-bold text-white pb-2 ${theme == false ? "text-light" : "text-dark"}`,
-                            children: [
-                                "Ol\xe1, eu sou ",
-                                Banner_name
-                            ]
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h1", {
-                            className: `text-5xl font-bold text-light pb-4 flex gap-2 max-md:text-3xl max-md:flex-col ${theme == false ? "text-light" : "text-dark"}`,
-                            children: [
-                                "Front-end",
-                                /*#__PURE__*/ jsx_runtime_.jsx((dist_react_default()), {
-                                    options: {
-                                        strings: [
-                                            "Developer",
-                                            "Web"
-                                        ],
-                                        autoStart: true,
-                                        loop: true,
-                                        delay: 50
-                                    }
-                                })
-                            ]
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                            className: `w-[30rem] mx-0 my-auto max-md:w-full max-md:px-4 ${theme == false ? "text-light" : "text-dark"}`,
-                            children: description
-                        }),
                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "flex gap-4 items-center justify-center pt-4 max-sm:flex-col max-sm:mx-5",
+                            className: "text-center max-lg:mx-5 gap-2",
                             children: [
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Button, {
-                                    isHighlight: true,
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx(FilePdf_es/* default */.Z, {
-                                            size: 24,
-                                            weight: "fill",
-                                            color: "#fff"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                            className: `text-white`,
-                                            children: "Curriculo"
-                                        })
-                                    ]
+                                /*#__PURE__*/ jsx_runtime_.jsx(TitleSide, {
+                                    title: "Habilidades em Desenvolvimento Web",
+                                    section: "Habilidades",
+                                    center: true
                                 }),
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Button, {
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx(GithubLogo_es/* default */.Z, {
-                                            size: 24,
-                                            weight: "fill",
-                                            color: `${theme == false ? "#ffffff" : "#1178FF"}`
-                                        }),
-                                        "GitHub"
-                                    ]
+                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                    className: `${theme == false ? "text-slate-400" : "text-zinc-800"} mt-4`,
+                                    children: "Conhe\xe7a as Linguagens, Tecnologias e Ferramentas que Domino"
                                 })
                             ]
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            className: "flex flex-col items-center",
+                            children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: "grid gap-6 grid-cols-6 grid-flow-row mt-8 place-items-center w-[46rem] mx-auto max-lg:grid-cols-3 max-lg:gap-16 max-lg:mx-5 max-sm:grid-cols-3 max-sm:w-max max-sm:gap-8",
+                                children: technology.map((item)=>{
+                                    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: `p-2 rounded-md h-16 w-16 justify-center flex items-center
+              ${theme ? "bg-slate-400" : "bg-bg-dark-secundary"}
+            `,
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                            width: 40,
+                                            src: item.link,
+                                            title: item.title,
+                                            alt: ""
+                                        })
+                                    }, item.title);
+                                })
+                            })
                         })
                     ]
                 })
             ]
-        })
-    });
-}
-
-// EXTERNAL MODULE: ./node_modules/react-hook-form/dist/index.esm.mjs
-var index_esm = __webpack_require__(1031);
-// EXTERNAL MODULE: ./node_modules/@hookform/resolvers/yup/dist/yup.mjs + 1 modules
-var yup = __webpack_require__(9780);
-// EXTERNAL MODULE: ./node_modules/yup/index.js
-var node_modules_yup = __webpack_require__(8952);
-;// CONCATENATED MODULE: ./src/common/Input.tsx
-
-
-
-function Input({ placeholder , register  }) {
-    const { theme , setTheme  } = (0,react_.useContext)(theme_context.ThemeContext);
-    return /*#__PURE__*/ jsx_runtime_.jsx("input", {
-        className: `${theme == false ? "bg-[#1c1f27]" : "bg-zinc-200"} p-2 rounded-lg mt-2 focus:border-zinc-700 focus:border outline-none placeholder:text-zinc-500`,
-        placeholder: placeholder,
-        ...register
-    });
-}
-
-;// CONCATENATED MODULE: ./src/container/TitleSide.tsx
-
-
-
-function TitleSide_TitleSide() {
-    const { theme , setTheme  } = (0,react_.useContext)(theme_context.ThemeContext);
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: "flex flex-col gap-6 justify-start",
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                className: `${theme == false ? "text-white" : "text-zinc-800"} text-4xl font-bold`,
-                children: "Vamos nos conectar!"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                className: `${theme == false ? "text-slate-400" : "text-zinc-800"} max-w-[500px]`,
-                children: "Ficarei muito feliz em saber de voc\xea! Se voc\xea tem alguma d\xfavida, sugest\xe3o, proposta de trabalho ou simplesmente deseja dizer ol\xe1, sinta-se \xe0 vontade para entrar em contato. Estou sempre aberto a novas oportunidades"
-            })
-        ]
-    });
-}
-
-;// CONCATENATED MODULE: ./src/components/Contact.tsx
-/* __next_internal_client_entry_do_not_use__ Contact auto */ 
-
-
-
-
-
-
-
-
-const schema = node_modules_yup/* object */.Ry({
-    username: node_modules_yup/* string */.Z_().required("Por favor, digite seu nome."),
-    subject: node_modules_yup/* string */.Z_().required("Por favor, digite o assunto."),
-    message: node_modules_yup/* string */.Z_().required("Por favor, digite sua mensagem.")
-}).required();
-function Contact() {
-    const [message, setMessage] = (0,react_.useState)("");
-    const [showMessage, setShowMessage] = (0,react_.useState)(false);
-    const [errorMessage, setErrorMessage] = (0,react_.useState)("");
-    const [showErrorMessage, setShowErrorMessage] = (0,react_.useState)(false);
-    const [isLoading, setIsLoading] = (0,react_.useState)(false);
-    const { theme , setTheme  } = (0,react_.useContext)(theme_context.ThemeContext);
-    const formRef = (0,react_.useRef)(null);
-    const { register , handleSubmit , formState: { errors  }  } = (0,index_esm/* useForm */.cI)({
-        resolver: (0,yup/* yupResolver */.X)(schema)
-    });
-    const onSubmit = async (data)=>{
-        console.log(isLoading);
-    };
-    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        className: "py-16 md:py-20 lg:py-28  mb-32 w-full gap-6 max-lg:px-6 max-lg:flex-col",
-        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-            className: "container",
-            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "flex items-start justify-center",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(TitleSide_TitleSide, {}),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "w-96 items-start flex flex-col",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("form", {
-                            className: "w-full",
-                            onSubmit: handleSubmit(onSubmit),
-                            ref: formRef,
-                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "flex flex-col gap-4",
-                                children: [
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: "flex flex-col",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("label", {
-                                                className: `${theme == false ? "text-slate-400" : "text-zinc-800"}`,
-                                                children: "Seu Nome:"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx(Input, {
-                                                placeholder: "Digite seu nome",
-                                                register: register("username")
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                className: "text-red-600 mt-2",
-                                                children: errors.username?.message
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: "flex flex-col",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("label", {
-                                                className: `${theme == false ? "text-slate-400" : "text-zinc-800"}`,
-                                                children: "Assunto:"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx(Input, {
-                                                placeholder: "Digite seu nome",
-                                                register: register("subject")
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                className: "text-red-600 mt-2",
-                                                children: errors.subject?.message
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: "flex flex-col",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("label", {
-                                                className: `${theme == false ? "text-slate-400" : "text-zinc-800"}`,
-                                                children: "Messagem:"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("textarea", {
-                                                className: `${theme == false ? "bg-bg-dark-secundary" : "bg-zinc-200"} p-2 rounded-lg mt-2 focus:border-zinc-700 focus:border outline-none placeholder:text-zinc-500`,
-                                                placeholder: "Do que voc\xea precisa?",
-                                                ...register("message")
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                className: "text-red-600 mt-2",
-                                                children: errors.message?.message
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx(Button, {
-                                        isHighlight: true,
-                                        disabled: isLoading,
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                            className: "text-white",
-                                            children: "Entrar em Contato"
-                                        })
-                                    }),
-                                    showMessage && /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "text-green-500 text-sm rounded-lg mt-2",
-                                        children: message
-                                    }),
-                                    showErrorMessage && /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "text-red-500 text-sm rounded-lg mt-2",
-                                        children: errorMessage
-                                    })
-                                ]
-                            })
-                        })
-                    })
-                ]
-            })
         })
     });
 }
@@ -1062,7 +1292,7 @@ function Jobs() {
 }
 
 ;// CONCATENATED MODULE: ./src/components/Experiences.tsx
-/* __next_internal_client_entry_do_not_use__ SectionExperience auto */ 
+/* __next_internal_client_entry_do_not_use__ default auto */ 
 
 
 
@@ -1129,410 +1359,6 @@ function SectionExperience() {
                     })
                 ]
             })
-        })
-    });
-}
-
-;// CONCATENATED MODULE: ./src/components/Footer.tsx
-/* __next_internal_client_entry_do_not_use__ Footer auto */ 
-
-
-
-function Footer() {
-    const { theme , setTheme  } = (0,react_.useContext)(theme_context.ThemeContext);
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("hr", {
-                className: "border border-zinc-800"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("footer", {
-                className: `${theme == false ? "bg-[zinc-900]" : "bg-white"} w-full text-center flex itens-center justify-center py-4 `,
-                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: "container",
-                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "flex w-full justify-between max-lg:px-4",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                    className: "font-bold bg-text-gradient text-transparent bg-clip-text",
-                                    children: "Leondor3"
-                                })
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "flex gap-4",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx(GithubLogo_es/* default */.Z, {
-                                        size: 24,
-                                        weight: "fill",
-                                        color: `${theme == false ? "#ffffff" : "#1178FF"}`
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx(LinkedinLogo_es/* default */.Z, {
-                                        size: 24,
-                                        weight: "fill",
-                                        color: `${theme == false ? "#ffffff" : "#1178FF"}`
-                                    })
-                                ]
-                            })
-                        ]
-                    })
-                })
-            })
-        ]
-    });
-}
-
-// EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__(1621);
-var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
-// EXTERNAL MODULE: ./node_modules/@phosphor-icons/react/dist/icons/List.es.js
-var List_es = __webpack_require__(5807);
-// EXTERNAL MODULE: ./node_modules/@phosphor-icons/react/dist/icons/MoonStars.es.js
-var MoonStars_es = __webpack_require__(3094);
-// EXTERNAL MODULE: ./node_modules/@phosphor-icons/react/dist/icons/Sun.es.js
-var Sun_es = __webpack_require__(7765);
-;// CONCATENATED MODULE: ./src/components/ChangeTheme.tsx
-/* __next_internal_client_entry_do_not_use__ ChangeTheme auto */ 
-
-
-
-function ChangeTheme() {
-    const { theme , setTheme  } = (0,react_.useContext)(theme_context.ThemeContext);
-    function handleThemeChange() {
-        setTheme(!theme);
-        localStorage.setItem("theme", !theme ? "dark" : "light");
-    }
-    return /*#__PURE__*/ jsx_runtime_.jsx("button", {
-        onClick: ()=>handleThemeChange(),
-        className: "max-[768px]:absolute max-[768px]:right-16",
-        children: theme == false ? /*#__PURE__*/ jsx_runtime_.jsx(MoonStars_es/* default */.Z, {
-            className: "bg-bg-dark-secundary",
-            style: {
-                borderRadius: "8px",
-                padding: "4px"
-            },
-            size: 32,
-            color: "#1178FF"
-        }) : /*#__PURE__*/ jsx_runtime_.jsx(Sun_es/* default */.Z, {
-            style: {
-                background: "#e3e3e5",
-                borderRadius: "8px",
-                padding: "4px"
-            },
-            size: 32,
-            color: "#1178FF"
-        })
-    });
-}
-
-;// CONCATENATED MODULE: ./src/components/Header.tsx
-/* __next_internal_client_entry_do_not_use__ Header auto */ 
-
-
-
-
-
-function Header() {
-    const { theme , setTheme  } = (0,react_.useContext)(theme_context.ThemeContext);
-    const [isBurguer, setIsBurger] = (0,react_.useState)(false);
-    const [sticky, setSticky] = (0,react_.useState)(false);
-    const handleStickyNavbar = ()=>{
-        if (window.scrollY >= 80) {
-            setSticky(true);
-        } else {
-            setSticky(false);
-        }
-    };
-    (0,react_.useEffect)(()=>{
-        window.addEventListener("scroll", handleStickyNavbar);
-    });
-    return /*#__PURE__*/ jsx_runtime_.jsx("header", {
-        className: `header top-0 left-0 z-40 flex w-full items-center bg-transparent ${sticky ? "!fixed !z-[9999] !bg-white !bg-opacity-10 shadow-sticky backdrop-blur-sm" : "absolute"}`,
-        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-            className: "container",
-            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "flex items-center justify-between h-20 gap-8",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                        className: "font-bold bg-text-gradient text-transparent bg-clip-text",
-                        children: "Leondor3"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                        className: "absolute top-3 right-4 md:hidden",
-                        onClick: ()=>setIsBurger(!isBurguer),
-                        children: /*#__PURE__*/ jsx_runtime_.jsx(List_es/* default */.Z, {
-                            size: 32,
-                            color: "#1178FF"
-                        })
-                    }),
-                    isBurguer && /*#__PURE__*/ jsx_runtime_.jsx("nav", {
-                        className: `flex flex-col justify-start items-end absolute right-0 top-12 w-full h-2/3 z-20 ${theme == false ? "bg-bg-dark-secundary" : "bg-zinc-200"}`,
-                        children: [
-                            [
-                                "Home",
-                                "/dashboard"
-                            ],
-                            [
-                                "About",
-                                "/team"
-                            ],
-                            [
-                                "Skills",
-                                "/projects"
-                            ],
-                            [
-                                "Experience",
-                                "/reports"
-                            ],
-                            [
-                                "Works",
-                                "/reports"
-                            ],
-                            [
-                                "Contact",
-                                "/reports"
-                            ]
-                        ].map(([title, url])=>/*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                href: url,
-                                className: `w-full text-end rounded-none px-3 py-4 ${theme == false ? "text-light" : "text-dark"} font-medium hover:bg-blue-600`,
-                                children: title
-                            }, title))
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("nav", {
-                        className: "flex sm:justify-center space-x-4 max-[768px]:hidden",
-                        children: [
-                            [
-                                "Principal",
-                                "#home"
-                            ],
-                            [
-                                "Sobre",
-                                "#about"
-                            ],
-                            [
-                                "T\xe9cnologias",
-                                "#technology"
-                            ],
-                            [
-                                "Experi\xeancias",
-                                "#experiences"
-                            ],
-                            [
-                                "Trabalhos",
-                                "#works"
-                            ],
-                            [
-                                "Contato",
-                                "#contact"
-                            ]
-                        ].map(([title, url])=>/*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                href: url,
-                                onClick: (e)=>{
-                                    e.preventDefault();
-                                    const element = document.querySelector(url);
-                                    element.scrollIntoView({
-                                        behavior: "smooth"
-                                    });
-                                },
-                                className: `px-3 py-2 hover:text-blue-400 transition ${theme == false ? "text-light" : "text-dark"}`,
-                                children: title
-                            }, url))
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(ChangeTheme, {})
-                ]
-            })
-        })
-    });
-}
-
-;// CONCATENATED MODULE: ./src/assets/logo-react.svg
-/* harmony default export */ const logo_react = ({"src":"/_next/static/media/logo-react.589d83be.svg","height":40,"width":40,"blurWidth":0,"blurHeight":0});
-;// CONCATENATED MODULE: ./src/assets/logo-javascript.svg
-/* harmony default export */ const logo_javascript = ({"src":"/_next/static/media/logo-javascript.0040a2dd.svg","height":40,"width":40,"blurWidth":0,"blurHeight":0});
-;// CONCATENATED MODULE: ./src/assets/logo-html.svg
-/* harmony default export */ const logo_html = ({"src":"/_next/static/media/logo-html.5ed9cc95.svg","height":40,"width":40,"blurWidth":0,"blurHeight":0});
-;// CONCATENATED MODULE: ./src/assets/logo-tailwind.svg
-/* harmony default export */ const logo_tailwind = ({"src":"/_next/static/media/logo-tailwind.d31d8569.svg","height":40,"width":40,"blurWidth":0,"blurHeight":0});
-;// CONCATENATED MODULE: ./src/assets/logo-styled.svg
-/* harmony default export */ const logo_styled = ({"src":"/_next/static/media/logo-styled.c7695b0f.svg","height":40,"width":40,"blurWidth":0,"blurHeight":0});
-;// CONCATENATED MODULE: ./src/assets/logo-bootstrap.svg
-/* harmony default export */ const logo_bootstrap = ({"src":"/_next/static/media/logo-bootstrap.9a46290b.svg","height":40,"width":40,"blurWidth":0,"blurHeight":0});
-;// CONCATENATED MODULE: ./src/assets/logo-typescript.svg
-/* harmony default export */ const logo_typescript = ({"src":"/_next/static/media/logo-typescript.d4aa6af9.svg","height":40,"width":40,"blurWidth":0,"blurHeight":0});
-;// CONCATENATED MODULE: ./src/assets/logo-next.svg
-/* harmony default export */ const logo_next = ({"src":"/_next/static/media/logo-next.b870d775.svg","height":40,"width":132,"blurWidth":0,"blurHeight":0});
-;// CONCATENATED MODULE: ./src/assets/logo-radix.svg
-/* harmony default export */ const logo_radix = ({"src":"/_next/static/media/logo-radix.453101d0.svg","height":40,"width":40,"blurWidth":0,"blurHeight":0});
-;// CONCATENATED MODULE: ./src/assets/logo-css.svg
-/* harmony default export */ const logo_css = ({"src":"/_next/static/media/logo-css.c061906b.svg","height":40,"width":40,"blurWidth":0,"blurHeight":0});
-;// CONCATENATED MODULE: ./src/assets/logo-cypress.svg
-/* harmony default export */ const logo_cypress = ({"src":"/_next/static/media/logo-cypress.ad3e110e.svg","height":40,"width":40,"blurWidth":0,"blurHeight":0});
-;// CONCATENATED MODULE: ./src/assets/logo-sass.svg
-/* harmony default export */ const logo_sass = ({"src":"/_next/static/media/logo-sass.27419208.svg","height":40,"width":50,"blurWidth":0,"blurHeight":0});
-;// CONCATENATED MODULE: ./src/components/Technologys.tsx
-/* __next_internal_client_entry_do_not_use__ Technology auto */ 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function Technology() {
-    const controls = (0,use_animation/* useAnimation */._)();
-    const { ref , inView , entry  } = (0,react_intersection_observer_modern/* useInView */.YD)({
-        threshold: 0.2,
-        triggerOnce: true
-    });
-    const { theme , setTheme  } = (0,react_.useContext)(theme_context.ThemeContext);
-    (0,react_.useEffect)(()=>{
-        if (inView) {
-            controls.start("visible");
-        } else {
-            controls.start("hidden");
-        }
-    }, [
-        controls,
-        inView
-    ]);
-    const technology = [
-        {
-            key: 1,
-            title: "React",
-            link: logo_react
-        },
-        {
-            key: 2,
-            title: "Javascript",
-            link: logo_javascript
-        },
-        {
-            title: "HTML",
-            key: 3,
-            link: logo_html
-        },
-        {
-            key: 4,
-            title: "CSS",
-            link: logo_css
-        },
-        {
-            key: 10,
-            title: "Typescript",
-            link: logo_typescript
-        },
-        {
-            key: 5,
-            title: "TailwindCSS",
-            link: logo_tailwind
-        },
-        {
-            key: 6,
-            title: "Bootstrap",
-            link: logo_bootstrap
-        },
-        {
-            key: 7,
-            title: "Styled Components",
-            link: logo_styled
-        },
-        {
-            key: 8,
-            title: "NextJS",
-            link: logo_next
-        },
-        {
-            key: 9,
-            title: "Cypress",
-            link: logo_cypress
-        },
-        {
-            title: "Radix UI",
-            key: 11,
-            link: logo_radix
-        },
-        {
-            title: "Sass",
-            key: 12,
-            link: logo_sass
-        }
-    ];
-    return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(motion/* motion.div */.E.div, {
-            ref: ref,
-            initial: {
-                opacity: 0
-            },
-            animate: controls,
-            variants: {
-                visible: {
-                    opacity: 1,
-                    x: 0
-                },
-                hidden: {
-                    opacity: 0,
-                    x: -100
-                }
-            },
-            transition: {
-                duration: 1,
-                delay: 0.5
-            },
-            className: "mx-auto relative py-16 md:py-20 lg:py-28",
-            id: "technology",
-            children: [
-                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: "absolute -left-96 top-1/2 h-[288px] w-[526px] -translate-y-1/2 translate-x-1/2 rounded-full bg-[#2563eb] opacity-20 blur-full"
-                }),
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "container",
-                    children: [
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "text-center max-lg:mx-5 gap-2",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx(TitleSide, {
-                                    title: "Habilidades em Desenvolvimento Web",
-                                    section: "Habilidades",
-                                    center: true
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    className: `${theme == false ? "text-slate-400" : "text-zinc-800"} mt-4`,
-                                    children: "Conhe\xe7a as Linguagens, Tecnologias e Ferramentas que Domino"
-                                })
-                            ]
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "flex flex-col items-center",
-                            children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: "grid gap-6 grid-cols-6 grid-flow-row mt-8 place-items-center w-[46rem] mx-auto max-lg:grid-cols-3 max-lg:gap-16 max-lg:mx-5 max-sm:grid-cols-3 max-sm:w-max max-sm:gap-8",
-                                children: technology.map((item)=>{
-                                    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: `p-2 rounded-md h-16 w-16 justify-center flex items-center
-              ${theme ? "bg-slate-400" : "bg-bg-dark-secundary"}
-            `,
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                            width: 40,
-                                            src: item.link,
-                                            title: item.title,
-                                            alt: ""
-                                        })
-                                    }, item.title);
-                                })
-                            })
-                        })
-                    ]
-                })
-            ]
         })
     });
 }
@@ -1683,41 +1509,215 @@ function Works() {
     });
 }
 
-;// CONCATENATED MODULE: ./src/common/ScrollTop.tsx
+// EXTERNAL MODULE: ./node_modules/react-hook-form/dist/index.esm.mjs
+var index_esm = __webpack_require__(1031);
+// EXTERNAL MODULE: ./node_modules/@hookform/resolvers/yup/dist/yup.mjs + 1 modules
+var yup = __webpack_require__(9780);
+// EXTERNAL MODULE: ./node_modules/yup/index.js
+var node_modules_yup = __webpack_require__(8952);
+;// CONCATENATED MODULE: ./src/common/Input.tsx
 
 
 
-function ScrollToTop() {
-    const [isVisible, setIsVisible] = (0,react_.useState)(false);
+function Input({ placeholder , register  }) {
     const { theme , setTheme  } = (0,react_.useContext)(theme_context.ThemeContext);
-    const scrollToTop = ()=>{
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
+    return /*#__PURE__*/ jsx_runtime_.jsx("input", {
+        className: `${theme == false ? "bg-[#1c1f27]" : "bg-zinc-200"} p-2 rounded-lg mt-2 focus:border-zinc-700 focus:border outline-none placeholder:text-zinc-500`,
+        placeholder: placeholder,
+        ...register
+    });
+}
+
+;// CONCATENATED MODULE: ./src/container/TitleSide.tsx
+
+
+
+function TitleSide_TitleSide() {
+    const { theme , setTheme  } = (0,react_.useContext)(theme_context.ThemeContext);
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        className: "flex flex-col gap-6 justify-start",
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                className: `${theme == false ? "text-white" : "text-zinc-800"} text-4xl font-bold`,
+                children: "Vamos nos conectar!"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                className: `${theme == false ? "text-slate-400" : "text-zinc-800"} max-w-[500px]`,
+                children: "Ficarei muito feliz em saber de voc\xea! Se voc\xea tem alguma d\xfavida, sugest\xe3o, proposta de trabalho ou simplesmente deseja dizer ol\xe1, sinta-se \xe0 vontade para entrar em contato. Estou sempre aberto a novas oportunidades"
+            })
+        ]
+    });
+}
+
+;// CONCATENATED MODULE: ./src/components/Contact.tsx
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+
+
+
+
+
+const schema = node_modules_yup/* object */.Ry({
+    username: node_modules_yup/* string */.Z_().required("Por favor, digite seu nome."),
+    subject: node_modules_yup/* string */.Z_().required("Por favor, digite o assunto."),
+    message: node_modules_yup/* string */.Z_().required("Por favor, digite sua mensagem.")
+}).required();
+function Contact() {
+    const [message, setMessage] = (0,react_.useState)("");
+    const [showMessage, setShowMessage] = (0,react_.useState)(false);
+    const [errorMessage, setErrorMessage] = (0,react_.useState)("");
+    const [showErrorMessage, setShowErrorMessage] = (0,react_.useState)(false);
+    const [isLoading, setIsLoading] = (0,react_.useState)(false);
+    const { theme , setTheme  } = (0,react_.useContext)(theme_context.ThemeContext);
+    const formRef = (0,react_.useRef)(null);
+    const { register , handleSubmit , formState: { errors  }  } = (0,index_esm/* useForm */.cI)({
+        resolver: (0,yup/* yupResolver */.X)(schema)
+    });
+    const onSubmit = async (data)=>{
+        console.log(isLoading);
     };
-    (0,react_.useEffect)(()=>{
-        // Button is displayed after scrolling for 500 pixels
-        const toggleVisibility = ()=>{
-            if (window.pageYOffset > 300) {
-                setIsVisible(true);
-            } else {
-                setIsVisible(false);
-            }
-        };
-        window.addEventListener("scroll", toggleVisibility);
-        return ()=>window.removeEventListener("scroll", toggleVisibility);
-    }, []);
     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        className: "fixed bottom-8 right-8 z-[99]",
-        children: isVisible && /*#__PURE__*/ jsx_runtime_.jsx("div", {
-            onClick: scrollToTop,
-            "aria-label": "scroll to top",
-            className: "flex h-10 w-10 cursor-pointer items-center bg-blue-600/20 justify-center rounded-md bg-primary text-white shadow-md transition duration-300 ease-in-out hover:bg-opacity-80",
-            children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                className: `mt-[6px] h-3 w-3 rotate-45 border-t border-l ${theme == false ? "border-white" : "border-black"}`
+        className: "py-16 md:py-20 lg:py-28  mb-32 w-full gap-6 max-lg:px-6 max-lg:flex-col",
+        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+            className: "container",
+            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "flex items-start justify-center",
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx(TitleSide_TitleSide, {}),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "w-96 items-start flex flex-col",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("form", {
+                            className: "w-full",
+                            onSubmit: handleSubmit(onSubmit),
+                            ref: formRef,
+                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: "flex flex-col gap-4",
+                                children: [
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                        className: "flex flex-col",
+                                        children: [
+                                            /*#__PURE__*/ jsx_runtime_.jsx("label", {
+                                                className: `${theme == false ? "text-slate-400" : "text-zinc-800"}`,
+                                                children: "Seu Nome:"
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx(Input, {
+                                                placeholder: "Digite seu nome",
+                                                register: register("username")
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                className: "text-red-600 mt-2",
+                                                children: errors.username?.message
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                        className: "flex flex-col",
+                                        children: [
+                                            /*#__PURE__*/ jsx_runtime_.jsx("label", {
+                                                className: `${theme == false ? "text-slate-400" : "text-zinc-800"}`,
+                                                children: "Assunto:"
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx(Input, {
+                                                placeholder: "Digite seu nome",
+                                                register: register("subject")
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                className: "text-red-600 mt-2",
+                                                children: errors.subject?.message
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                        className: "flex flex-col",
+                                        children: [
+                                            /*#__PURE__*/ jsx_runtime_.jsx("label", {
+                                                className: `${theme == false ? "text-slate-400" : "text-zinc-800"}`,
+                                                children: "Messagem:"
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("textarea", {
+                                                className: `${theme == false ? "bg-bg-dark-secundary" : "bg-zinc-200"} p-2 rounded-lg mt-2 focus:border-zinc-700 focus:border outline-none placeholder:text-zinc-500`,
+                                                placeholder: "Do que voc\xea precisa?",
+                                                ...register("message")
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                className: "text-red-600 mt-2",
+                                                children: errors.message?.message
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx(Button, {
+                                        isHighlight: true,
+                                        disabled: isLoading,
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            className: "text-white",
+                                            children: "Entrar em Contato"
+                                        })
+                                    }),
+                                    showMessage && /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: "text-green-500 text-sm rounded-lg mt-2",
+                                        children: message
+                                    }),
+                                    showErrorMessage && /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: "text-red-500 text-sm rounded-lg mt-2",
+                                        children: errorMessage
+                                    })
+                                ]
+                            })
+                        })
+                    })
+                ]
             })
         })
+    });
+}
+
+;// CONCATENATED MODULE: ./src/components/Footer.tsx
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+function Footer() {
+    const { theme , setTheme  } = (0,react_.useContext)(theme_context.ThemeContext);
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("hr", {
+                className: "border border-zinc-800"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("footer", {
+                className: `${theme == false ? "bg-[zinc-900]" : "bg-white"} w-full text-center flex itens-center justify-center py-4 `,
+                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    className: "container",
+                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: "flex w-full justify-between max-lg:px-4",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                    className: "font-bold bg-text-gradient text-transparent bg-clip-text",
+                                    children: "Leondor3"
+                                })
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: "flex gap-4",
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx(GithubLogo_es/* default */.Z, {
+                                        size: 24,
+                                        weight: "fill",
+                                        color: `${theme == false ? "#ffffff" : "#1178FF"}`
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx(LinkedinLogo_es/* default */.Z, {
+                                        size: 24,
+                                        weight: "fill",
+                                        color: `${theme == false ? "#ffffff" : "#1178FF"}`
+                                    })
+                                ]
+                            })
+                        ]
+                    })
+                })
+            })
+        ]
     });
 }
 

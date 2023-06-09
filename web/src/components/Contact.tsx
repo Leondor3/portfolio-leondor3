@@ -19,7 +19,7 @@ const schema = yup
 
 type FormData = yup.InferType<typeof schema>;
 
-export function Contact() {
+export default function Contact() {
   const [message, setMessage] = useState("");
   const [showMessage, setShowMessage] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");

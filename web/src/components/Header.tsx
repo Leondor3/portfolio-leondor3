@@ -3,10 +3,10 @@
 import react, { useState, useContext, useEffect } from "react";
 import Link from "next/link";
 import { List } from "@phosphor-icons/react";
-import { ChangeTheme } from "./ChangeTheme";
 import { ThemeContext } from "@/context/theme-context";
+import ChangeTheme from "./ChangeTheme";
 
-export function Header() {
+export default function Header() {
   const { theme, setTheme } = useContext(ThemeContext);
   const [isBurguer, setIsBurger] = useState(false);
   const [sticky, setSticky] = useState(false);

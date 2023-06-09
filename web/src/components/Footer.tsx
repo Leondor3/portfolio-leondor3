@@ -4,7 +4,7 @@ import { useContext } from "react";
 import { GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
 import { ThemeContext } from "@/context/theme-context";
 
-export function Footer() {
+export default function Footer() {
   const { theme, setTheme } = useContext(ThemeContext);
 
   return (

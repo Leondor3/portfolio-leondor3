@@ -1,17 +1,17 @@
 "use client";
 
-import { About } from "@/components/About";
-import { Banner } from "@/components/Banner";
-import { Contact } from "@/components/Contact";
-import { SectionExperience } from "@/components/Experiences";
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
-import { Technology } from "@/components/Technologys";
 import { Inter } from "next/font/google";
 import { useContext } from "react";
-import { Works } from "@/components/Works";
 import { ThemeContext } from "@/context/theme-context";
 import ScrollToTop from "@/common/ScrollTop";
+import Header from "@/components/Header";
+import Banner from "@/components/Banner";
+import About from "@/components/About";
+import Technology from "@/components/Technologys";
+import SectionExperience from "@/components/Experiences";
+import Works from "@/components/Works";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 

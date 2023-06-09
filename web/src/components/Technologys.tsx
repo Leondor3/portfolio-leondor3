@@ -25,7 +25,7 @@ interface TechnologyProps {
   title: string;
 }
 
-export function Technology() {
+export default function Technology() {
   const controls = useAnimation();
   const { ref, inView, entry } = useInView({
     threshold: 0.2,

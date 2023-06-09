@@ -19,7 +19,7 @@ type TypewriterProps = {
   };
 };
 
-export function Banner() {
+export default function Banner() {
   const { theme, setTheme } = useContext(ThemeContext);
 
   return (

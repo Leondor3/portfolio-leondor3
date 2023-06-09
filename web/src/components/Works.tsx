@@ -4,7 +4,7 @@ import { ThemeContext } from "@/context/theme-context";
 import { MockupWorks } from "@/data/mockupWorks";
 import SectionTitle from "@/common/TitleSide";
 
-export function Works() {
+export default function Works() {
   const { theme, setTheme } = useContext(ThemeContext);
 
   return (

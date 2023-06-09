@@ -4,7 +4,7 @@ import { ThemeContext } from "@/context/theme-context";
 import { MoonStars, Sun } from "@phosphor-icons/react";
 import { useContext } from "react";
 
-export function ChangeTheme() {
+export default function ChangeTheme() {
   const { theme, setTheme } = useContext(ThemeContext);
 
   function handleThemeChange (){

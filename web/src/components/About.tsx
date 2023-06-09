@@ -11,7 +11,7 @@ import { ThemeContext } from "@/context/theme-context";
 import { Button } from "@/common/Button";
 import SectionTitle from "@/common/TitleSide";
 
-export function About() {
+export default function About() {
   const { theme, setTheme } = useContext(ThemeContext);
   const controls = useAnimation();
   const { ref, inView } = useInView({

@@ -8,7 +8,7 @@ import Jobs from "@/container/Jobs";
 import { ThemeContext } from "@/context/theme-context";
 import SectionTitle from "@/common/TitleSide";
 
-export function SectionExperience() {
+export default function SectionExperience() {
   const { theme, setTheme } = useContext(ThemeContext);
   const controls = useAnimation();
   const { ref, inView } = useInView({
