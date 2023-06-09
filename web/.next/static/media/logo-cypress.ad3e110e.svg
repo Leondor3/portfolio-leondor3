@@ -1,0 +1,14 @@
+<svg width="40" height="40" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-inject-url="https://iuricode.com/efront/assets/icons/cypress.svg">
+<path d="M25.9733 22.676C27.4619 20.4526 28.1647 17.7956 27.97 15.1271C27.7754 12.4585 26.6945 9.93156 24.8991 7.94774C23.1037 5.96392 20.6968 4.63705 18.0608 4.17795C15.4249 3.71886 12.7111 4.15388 10.3507 5.41391C7.99037 6.67393 6.11881 8.68666 5.03346 11.1323C3.94811 13.5779 3.71123 16.3161 4.36046 18.9117C5.0097 21.5074 6.5078 23.8117 8.61672 25.4583C10.7256 27.105 13.3244 27.9996 16 28C16.5824 28.0001 17.15 27.8169 17.6224 27.4764C18.0948 27.1358 18.4481 26.6552 18.632 26.1027L23.3333 12M18 12L20.6667 20" stroke="url(#paint0_linear_5583_2551--inject-40)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M14.3521 12.548C13.7457 12.1926 13.0564 12.0033 12.3535 11.9992C11.6507 11.995 10.9592 12.176 10.3486 12.5241C9.73803 12.8722 9.22995 13.3751 8.87553 13.982C8.52111 14.5889 8.33287 15.2785 8.32975 15.9814C8.32664 16.6842 8.50876 17.3754 8.85779 17.9855C9.20682 18.5955 9.71042 19.1028 10.3179 19.4563C10.9254 19.8098 11.6152 19.997 12.3181 19.9991C13.0209 20.0011 13.7119 19.8179 14.3214 19.468" stroke="url(#paint1_linear_5583_2551--inject-40)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<defs>
+<linearGradient id="paint0_linear_5583_2551--inject-40" x1="23.3581" y1="2.79997" x2="8.37848" y2="16.6586" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2563eb"></stop>
+<stop offset="1" stop-color="#2563eb"></stop>
+</linearGradient>
+<linearGradient id="paint1_linear_5583_2551--inject-40" x1="13.1868" y1="11.5991" x2="8.48922" y2="14.8707" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2563eb"></stop>
+<stop offset="1" stop-color="#2563eb"></stop>
+</linearGradient>
+</defs>
+</svg>

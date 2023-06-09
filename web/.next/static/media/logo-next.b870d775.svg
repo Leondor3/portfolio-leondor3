@@ -1,0 +1,14 @@
+<svg width="132" height="40" viewBox="0 0 132 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-inject-url="https://iuricode.com/efront/assets/icons/next.svg" id="next-icon">
+<g clip-path="url(#clip0_5574_2562--inject-42)">
+<path d="M132.167 0.0132308V5.07785H121.282V31.7231H115.839V5.07815H104.727V0.0132308H132.167ZM25.5126 31.7231L5.44308 6.77785V31.7102H0V0H6.80338L32.1591 31.4858L32.1594 5.07815L32.1572 0.0132308H59.5972V5.07785H37.6022V13.2255H55.2908V18.2905H37.6022V26.6585H59.5975V31.7231H25.5126ZM77.0415 18.2422L80.6086 22.6769L73.2994 31.7606H66.1563L77.0415 18.2422ZM73.2994 0.0264615L82.5086 11.4634L91.6889 0.0615385L98.812 0.0507692L86.0748 15.8923L98.8326 31.7363H91.6889L66.1766 0.0264615H73.2994Z" fill="url(#paint0_linear_5574_2562--inject-42)"></path>
+</g>
+<defs>
+<linearGradient id="paint0_linear_5574_2562--inject-42" x1="106.594" y1="-1.58803" x2="96.9177" y2="35.6654" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2563eb"></stop>
+<stop offset="1" stop-color="#2563eb"></stop>
+</linearGradient>
+<clipPath id="clip0_5574_2562--inject-42">
+<rect width="132" height="32" fill="white"></rect>
+</clipPath>
+</defs>
+</svg>
