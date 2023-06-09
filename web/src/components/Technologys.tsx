@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useEffect, useState, useContext } from "react";
-import { Lightning } from "@phosphor-icons/react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import logoReact from "./../assets/logo-react.svg";
@@ -107,48 +106,58 @@ export function Technology() {
     },
   ];
   return (
-    <motion.div
-      ref={ref}
-      initial={{ opacity: 0 }}
-      animate={controls}
-      variants={{
-        visible: { opacity: 1, x: 0 },
-        hidden: { opacity: 0, x: -100 },
-      }}
-      transition={{ duration: 1, delay: 0.5 }}
-      className="mx-auto relative pt-28 pb-32"
-      id="technology"
-    >
-      <div className="text-center max-lg:mx-5 gap-2">
-        <SectionTitle
-          title="Habilidades em Desenvolvimento Web"
-          section="Habilidades"
-          center
-        />
-        <p
-          className={`${
-            theme == false ? "text-slate-400" : "text-zinc-800"
-          } mt-4`}
-        >
-          Conheça as Linguagens, Tecnologias e Ferramentas que Domino
-        </p>
-      </div>
-      <div className="flex flex-col items-center">
-        <div className="grid gap-6 grid-cols-6 grid-flow-row mt-8 place-items-center w-[46rem] mx-auto max-lg:grid-cols-3 max-lg:gap-16 max-lg:mx-5 max-sm:grid-cols-3 max-sm:w-max max-sm:gap-8">
-          {technology.map((item) => {
-            return (
-              <div
-                key={item.title}
-                className={`p-2 rounded-md h-16 w-16 justify-center flex items-center
+    <>
+      <motion.div
+        ref={ref}
+        initial={{ opacity: 0 }}
+        animate={controls}
+        variants={{
+          visible: { opacity: 1, x: 0 },
+          hidden: { opacity: 0, x: -100 },
+        }}
+        transition={{ duration: 1, delay: 0.5 }}
+        className="mx-auto relative py-16 md:py-20 lg:py-28"
+        id="technology"
+      >
+        <div className="absolute -left-96 top-1/2 h-[288px] w-[526px] -translate-y-1/2 translate-x-1/2 rounded-full bg-[#2563eb] opacity-20 blur-full" />
+        <div className="container">
+          <div className="text-center max-lg:mx-5 gap-2">
+            <SectionTitle
+              title="Habilidades em Desenvolvimento Web"
+              section="Habilidades"
+              center
+            />
+            <p
+              className={`${
+                theme == false ? "text-slate-400" : "text-zinc-800"
+              } mt-4`}
+            >
+              Conheça as Linguagens, Tecnologias e Ferramentas que Domino
+            </p>
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="grid gap-6 grid-cols-6 grid-flow-row mt-8 place-items-center w-[46rem] mx-auto max-lg:grid-cols-3 max-lg:gap-16 max-lg:mx-5 max-sm:grid-cols-3 max-sm:w-max max-sm:gap-8">
+              {technology.map((item) => {
+                return (
+                  <div
+                    key={item.title}
+                    className={`p-2 rounded-md h-16 w-16 justify-center flex items-center
               ${theme ? "bg-slate-400" : "bg-bg-dark-secundary"}
             `}
-              >
-                <Image width={40} src={item.link} title={item.title} alt="" />
-              </div>
-            );
-          })}
+                  >
+                    <Image
+                      width={40}
+                      src={item.link}
+                      title={item.title}
+                      alt=""
+                    />
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </div>
-      </div>
-    </motion.div>
+      </motion.div>
+    </>
   );
 }

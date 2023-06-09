@@ -24,7 +24,7 @@ export function Banner() {
 
   return (
     <div
-      className="positive h-[40rem] flex items-center justify-center sm:px-4"
+      className="positive h-screen py-16 md:py-20 lg:py-28 flex items-center justify-center sm:px-4"
       id="#home"
     >
       <div className="flex items-center flex-col gap-2">

@@ -41,75 +41,81 @@ export function Contact() {
   };
 
   return (
-    <div className="mt-36 flex items-start justify-center mb-32 w-full gap-6 max-lg:px-6 max-lg:flex-col">
-      <TitleSide />
-      <div className="w-96 items-start flex flex-col">
-        <form
-          className="w-full"
-          onSubmit={handleSubmit(onSubmit)}
-          ref={formRef}
-        >
-          <div className="flex flex-col gap-4">
-            <div className="flex flex-col">
-              <label
-                className={`${
-                  theme == false ? "text-slate-400" : "text-zinc-800"
-                }`}
-              >
-                Seu Nome:
-              </label>
-              <Input
-                placeholder="Digite seu nome"
-                register={register("username")}
-              />
-              <p className="text-red-600 mt-2">{errors.username?.message}</p>
-            </div>
-            <div className="flex flex-col">
-              <label
-                className={`${
-                  theme == false ? "text-slate-400" : "text-zinc-800"
-                }`}
-              >
-                Assunto:
-              </label>
-              <Input
-                placeholder="Digite seu nome"
-                register={register("subject")}
-              />
-              <p className="text-red-600 mt-2">{errors.subject?.message}</p>
-            </div>
-            <div className="flex flex-col">
-              <label
-                className={`${
-                  theme == false ? "text-slate-400" : "text-zinc-800"
-                }`}
-              >
-                Messagem:
-              </label>
-              <textarea
-                className={`${
-                  theme == false ? "bg-bg-dark-secundary" : "bg-zinc-200"
-                } p-2 rounded-lg mt-2 focus:border-zinc-700 focus:border outline-none placeholder:text-zinc-500`}
-                placeholder="Do que você precisa?"
-                {...register("message")}
-              />
-              <p className="text-red-600 mt-2">{errors.message?.message}</p>
-            </div>
-            <Button isHighlight disabled={isLoading}>
-              <span className="text-white">Entrar em Contato</span>
-            </Button>
-            {showMessage && (
-              <div className="text-green-500 text-sm rounded-lg mt-2">
-                {message}
+    <div className="py-16 md:py-20 lg:py-28  mb-32 w-full gap-6 max-lg:px-6 max-lg:flex-col">
+      <div className="container">
+        <div className="flex items-start justify-center">
+          <TitleSide />
+          <div className="w-96 items-start flex flex-col">
+            <form
+              className="w-full"
+              onSubmit={handleSubmit(onSubmit)}
+              ref={formRef}
+            >
+              <div className="flex flex-col gap-4">
+                <div className="flex flex-col">
+                  <label
+                    className={`${
+                      theme == false ? "text-slate-400" : "text-zinc-800"
+                    }`}
+                  >
+                    Seu Nome:
+                  </label>
+                  <Input
+                    placeholder="Digite seu nome"
+                    register={register("username")}
+                  />
+                  <p className="text-red-600 mt-2">
+                    {errors.username?.message}
+                  </p>
+                </div>
+                <div className="flex flex-col">
+                  <label
+                    className={`${
+                      theme == false ? "text-slate-400" : "text-zinc-800"
+                    }`}
+                  >
+                    Assunto:
+                  </label>
+                  <Input
+                    placeholder="Digite seu nome"
+                    register={register("subject")}
+                  />
+                  <p className="text-red-600 mt-2">{errors.subject?.message}</p>
+                </div>
+                <div className="flex flex-col">
+                  <label
+                    className={`${
+                      theme == false ? "text-slate-400" : "text-zinc-800"
+                    }`}
+                  >
+                    Messagem:
+                  </label>
+                  <textarea
+                    className={`${
+                      theme == false ? "bg-bg-dark-secundary" : "bg-zinc-200"
+                    } p-2 rounded-lg mt-2 focus:border-zinc-700 focus:border outline-none placeholder:text-zinc-500`}
+                    placeholder="Do que você precisa?"
+                    {...register("message")}
+                  />
+                  <p className="text-red-600 mt-2">{errors.message?.message}</p>
+                </div>
+                <Button isHighlight disabled={isLoading}>
+                  <span className="text-white">Entrar em Contato</span>
+                </Button>
+                {showMessage && (
+                  <div className="text-green-500 text-sm rounded-lg mt-2">
+                    {message}
+                  </div>
+                )}
+                {showErrorMessage && (
+                  <div className="text-red-500 text-sm rounded-lg mt-2">
+                    {errorMessage}
+                  </div>
+                )}
               </div>
-            )}
-            {showErrorMessage && (
-              <div className="text-red-500 text-sm rounded-lg mt-2">
-                {errorMessage}
-              </div>
-            )}
+            </form>
           </div>
-        </form>
+        </div>
       </div>
     </div>
   );

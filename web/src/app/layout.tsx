@@ -1,6 +1,5 @@
+import { Inter } from "next/font/google";
 import "./globals.css";
-import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
 import { ThemeProvider } from "@/context/theme-context";
 
 export const metadata = {
@@ -20,7 +19,9 @@ export default function RootLayout({
       head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
     */}
       <head />
-      <ThemeProvider>{children}</ThemeProvider>
+      <body>
+        <ThemeProvider>{children}</ThemeProvider>
+      </body>
     </html>
   );
 }

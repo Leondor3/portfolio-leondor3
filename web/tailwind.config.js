@@ -6,6 +6,7 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/lib/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/container/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/common/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     container: {
@@ -63,6 +64,9 @@ module.exports = {
           800: "#027435",
           900: "#025929",
         },
+      },
+      blur: {
+        full: '194px',
       },
     },
   },

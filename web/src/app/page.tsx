@@ -11,6 +11,7 @@ import { Inter } from "next/font/google";
 import { useContext } from "react";
 import { Works } from "@/components/Works";
 import { ThemeContext } from "@/context/theme-context";
+import ScrollToTop from "@/common/ScrollTop";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -18,21 +19,20 @@ export default function Home() {
   const { theme, setTheme } = useContext(ThemeContext);
 
   return (
-    <body
+    <div
       className={`${inter.variable} font-sans text-gray-100 ${
         theme == false ? "bg-[#12141d]" : "bg-white"
       }`}
     >
-      <div className="w-full max-w-[1344px] mx-auto h-screen">
-        <Header />
-        <Banner />
-        <About />
-        <Technology />
-        <SectionExperience />
-        <Works />
-        <Contact />
-        <Footer />
-      </div>
-    </body>
+      <Header />
+      <ScrollToTop />
+      <Banner />
+      <About />
+      <Technology />
+      <SectionExperience />
+      <Works />
+      <Contact />
+      <Footer />
+    </div>
   );
 }

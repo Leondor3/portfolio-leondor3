@@ -31,7 +31,7 @@ export function Button({
     <button
       className={`${
         isHighlight ? "bg-blue-600" : "bg-transparent"
-      } border-blue-600 border rounded-md  py-4 px-8 ${
+      } border-blue-600 border rounded-md py-4 px-8 ${
         theme == false && !isHighlight == true ? "text-white" : "text-blue-600"
       } ${itemsCenter} gap-2 max-sm:w-full ${isDisabled}`}
       onClick={onClickFunction}
