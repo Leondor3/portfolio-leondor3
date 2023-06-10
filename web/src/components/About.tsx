@@ -9,7 +9,7 @@ import IllustrationPerfil from "../assets/illustration-perfil.jpeg";
 import Image from "next/image";
 import { ThemeContext } from "@/context/theme-context";
 import { Button } from "@/common/Button";
-import SectionTitle from "@/common/TitleSide";
+import SectionTitle from "@/common/SectionTitle";
 
 export default function About() {
   const { theme, setTheme } = useContext(ThemeContext);
@@ -57,7 +57,7 @@ export default function About() {
 
   return (
     <div
-      className="w-full relative max-sm:px-6 max-lg:flex-col gap-16 py-16 md:py-20 lg:py-28"
+      className="relative w-full gap-16 py-16 max-lg:flex-col max-sm:px-6 md:py-20 lg:py-28"
       id="about"
     >
       <div className="container">
@@ -70,7 +70,7 @@ export default function About() {
               hidden: { opacity: 0, x: -100 },
             }}
             transition={{ duration: 1, delay: 0.5 }}
-            className="flex flex-col items-start max-w-[600px] h-full justify-start space-y-4"
+            className="flex h-full max-w-[600px] flex-col items-start justify-start space-y-4"
           >
             <SectionTitle
               title="Desenvolvedor Front-end com experiências"
@@ -101,10 +101,10 @@ export default function About() {
               front-end apaixonado por criar interfaces excepcionais, estou
               disponível para oportunidades emocionantes.
             </p>
-            <div className="w-full flex gap-2">
+            <div className="flex w-full gap-2">
               <Button isHighlight>
                 <FilePdf size={24} weight="fill" color="#fff" />
-                <span className="text-white leading-relaxed">Curriculo</span>
+                <span className="leading-relaxed text-white">Curriculo</span>
               </Button>
               <Button>
                 <LinkedinLogo size={24} />
@@ -126,10 +126,10 @@ export default function About() {
               hidden: { opacity: 0, x: 100 },
             }}
             transition={{ duration: 1, delay: 0.5 }}
-            className="block max-lg:w-full max-lg:!translate-x-[100] w-[450px] mix-blend-luminosity"
+            className="block w-[450px] mix-blend-luminosity max-lg:w-full max-lg:!translate-x-[100]"
           >
             <Image
-              className="w-full object-cover h-full"
+              className="h-full w-full object-cover"
               src={IllustrationPerfil}
               alt=""
             />

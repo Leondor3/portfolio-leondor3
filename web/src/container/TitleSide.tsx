@@ -1,11 +1,11 @@
 import { ThemeContext } from "@/context/theme-context";
 import React, { useContext } from "react";
 
-export function TitleSide() {
+export default function TitleSide() {
   const { theme, setTheme } = useContext(ThemeContext);
 
   return (
-    <div className="flex flex-col gap-6 justify-start">
+    <div className="flex flex-col justify-start gap-6">
       <h1
         className={`${
           theme == false ? "text-white" : "text-zinc-800"

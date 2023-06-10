@@ -6,7 +6,7 @@ import { useInView } from "react-intersection-observer";
 import ComplementaryCourses from "@/container/ComplementaryCourses";
 import Jobs from "@/container/Jobs";
 import { ThemeContext } from "@/context/theme-context";
-import SectionTitle from "@/common/TitleSide";
+import SectionTitle from "@/common/SectionTitle";
 
 export default function SectionExperience() {
   const { theme, setTheme } = useContext(ThemeContext);

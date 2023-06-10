@@ -17,7 +17,7 @@ import logoCypress from "../assets/logo-cypress.svg";
 import logoSass from "../assets/logo-sass.svg";
 import Image from "next/image";
 import { ThemeContext } from "@/context/theme-context";
-import SectionTitle from "@/common/TitleSide";
+import SectionTitle from "@/common/SectionTitle";
 
 interface TechnologyProps {
   key: number;
@@ -116,12 +116,12 @@ export default function Technology() {
           hidden: { opacity: 0, x: -100 },
         }}
         transition={{ duration: 1, delay: 0.5 }}
-        className="mx-auto relative py-16 md:py-20 lg:py-28"
+        className="relative mx-auto py-16 md:py-20 lg:py-28"
         id="technology"
       >
         <div className="absolute -left-96 top-1/2 h-[288px] w-[526px] -translate-y-1/2 translate-x-1/2 rounded-full bg-[#2563eb] opacity-20 blur-full" />
         <div className="container">
-          <div className="text-center max-lg:mx-5 gap-2">
+          <div className="gap-2 text-center max-lg:mx-5">
             <SectionTitle
               title="Habilidades em Desenvolvimento Web"
               section="Habilidades"
@@ -136,12 +136,12 @@ export default function Technology() {
             </p>
           </div>
           <div className="flex flex-col items-center">
-            <div className="grid gap-6 grid-cols-6 grid-flow-row mt-8 place-items-center w-[46rem] mx-auto max-lg:grid-cols-3 max-lg:gap-16 max-lg:mx-5 max-sm:grid-cols-3 max-sm:w-max max-sm:gap-8">
+            <div className="mx-auto mt-8 grid w-[46rem] grid-flow-row grid-cols-6 place-items-center gap-6 max-lg:mx-5 max-lg:grid-cols-3 max-lg:gap-16 max-sm:w-max max-sm:grid-cols-3 max-sm:gap-8">
               {technology.map((item) => {
                 return (
                   <div
                     key={item.title}
-                    className={`p-2 rounded-md h-16 w-16 justify-center flex items-center
+                    className={`flex h-16 w-16 items-center justify-center rounded-md p-2
               ${theme ? "bg-slate-400" : "bg-bg-dark-secundary"}
             `}
                   >

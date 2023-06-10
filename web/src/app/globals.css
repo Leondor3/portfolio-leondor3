@@ -3,17 +3,19 @@
 @tailwind utilities;
 
 body {
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  background: #000;
 }
 
+
 .text-light {
-  @apply text-gray-100
+  @apply text-gray-100;
 }
 
 .text-dark {
-  @apply text-gray-500
+  @apply text-gray-500;
 }
 
 .Typewriter__wrapper {
@@ -22,4 +24,3 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
 }
-

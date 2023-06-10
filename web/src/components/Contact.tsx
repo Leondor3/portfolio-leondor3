@@ -6,8 +6,9 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import Input from "@/common/Input";
 import { Button } from "@/common/Button";
-import { TitleSide } from "@/container/TitleSide";
+import TitleSide from "@/container/TitleSide";
 import { ThemeContext } from "@/context/theme-context";
+import { api } from "@/lib/api";
 
 const schema = yup
   .object({
@@ -36,16 +37,34 @@ export default function Contact() {
     resolver: yupResolver(schema),
   });
 
-  const onSubmit: SubmitHandler<FormData> = async (data) => {
-    console.log(isLoading);
+  const onSubmit: SubmitHandler<FormData> = async (formData) => {
+    try {
+      const response = await api.post("/whatsapp", {
+        message: message,
+      });
+
+      if (response.data.success) {
+        alert("Mensagem enviada com sucesso!");
+        setMessage("");
+      } else {
+        alert(
+          "Erro ao enviar a mensagem. Por favor, tente novamente mais tarde."
+        );
+      }
+    } catch (error) {
+      console.error(error);
+      alert(
+        "Erro ao enviar a mensagem. Por favor, tente novamente mais tarde."
+      );
+    }
   };
 
   return (
-    <div className="py-16 md:py-20 lg:py-28  mb-32 w-full gap-6 max-lg:px-6 max-lg:flex-col">
+    <div className="mb-32 w-full gap-6  py-16 max-lg:flex-col max-lg:px-6 md:py-20 lg:py-28">
       <div className="container">
         <div className="flex items-start justify-center">
           <TitleSide />
-          <div className="w-96 items-start flex flex-col">
+          <div className="flex w-96 flex-col items-start">
             <form
               className="w-full"
               onSubmit={handleSubmit(onSubmit)}
@@ -64,7 +83,7 @@ export default function Contact() {
                     placeholder="Digite seu nome"
                     register={register("username")}
                   />
-                  <p className="text-red-600 mt-2">
+                  <p className="mt-2 text-red-600">
                     {errors.username?.message}
                   </p>
                 </div>
@@ -80,7 +99,7 @@ export default function Contact() {
                     placeholder="Digite seu nome"
                     register={register("subject")}
                   />
-                  <p className="text-red-600 mt-2">{errors.subject?.message}</p>
+                  <p className="mt-2 text-red-600">{errors.subject?.message}</p>
                 </div>
                 <div className="flex flex-col">
                   <label
@@ -93,22 +112,22 @@ export default function Contact() {
                   <textarea
                     className={`${
                       theme == false ? "bg-bg-dark-secundary" : "bg-zinc-200"
-                    } p-2 rounded-lg mt-2 focus:border-zinc-700 focus:border outline-none placeholder:text-zinc-500`}
+                    } mt-2 rounded-lg p-2 outline-none placeholder:text-zinc-500 focus:border focus:border-zinc-700`}
                     placeholder="Do que você precisa?"
                     {...register("message")}
                   />
-                  <p className="text-red-600 mt-2">{errors.message?.message}</p>
+                  <p className="mt-2 text-red-600">{errors.message?.message}</p>
                 </div>
                 <Button isHighlight disabled={isLoading}>
                   <span className="text-white">Entrar em Contato</span>
                 </Button>
                 {showMessage && (
-                  <div className="text-green-500 text-sm rounded-lg mt-2">
+                  <div className="mt-2 rounded-lg text-sm text-green-500">
                     {message}
                   </div>
                 )}
                 {showErrorMessage && (
-                  <div className="text-red-500 text-sm rounded-lg mt-2">
+                  <div className="mt-2 rounded-lg text-sm text-red-500">
                     {errorMessage}
                   </div>
                 )}
