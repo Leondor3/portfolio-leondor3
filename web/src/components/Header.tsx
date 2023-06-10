@@ -23,41 +23,41 @@ export default function Header() {
 
   return (
     <header
-      className={`header top-0 left-0 z-40 flex w-full items-center bg-transparent ${
+      className={`header left-0 top-0 z-40 flex w-full items-center bg-transparent ${
         sticky
-          ? "!fixed !z-[9999] !bg-white !bg-opacity-10 shadow-sticky backdrop-blur-sm"
+          ? "shadow-sticky !fixed !z-[9999] !bg-white !bg-opacity-10 backdrop-blur-sm"
           : "absolute"
       }`}
     >
       <div className="container">
-        <div className="flex items-center justify-between h-20 gap-8">
-          <span className="font-bold bg-text-gradient text-transparent bg-clip-text">
+        <div className="flex h-20 items-center justify-between gap-8">
+          <span className="bg-text-gradient bg-clip-text font-bold text-transparent">
             Leondor3
           </span>
           <button
-            className="absolute top-3 right-4 md:hidden"
+            className="absolute right-4 top-3 max-sm:top-6 md:hidden"
             onClick={() => setIsBurger(!isBurguer)}
           >
             <List size={32} color="#1178FF" />
           </button>
           {isBurguer && (
             <nav
-              className={`flex flex-col justify-start items-end absolute right-0 top-12 w-full h-2/3 z-20 ${
+              className={`absolute right-0 top-12 z-20 flex h-max w-full flex-col items-end justify-start max-sm:top-16 ${
                 theme == false ? "bg-bg-dark-secundary" : "bg-zinc-200"
               }`}
             >
               {[
-                ["Home", "/dashboard"],
-                ["About", "/team"],
-                ["Skills", "/projects"],
-                ["Experience", "/reports"],
-                ["Works", "/reports"],
-                ["Contact", "/reports"],
+                ["Principal", "#home"],
+                ["Sobre", "#about"],
+                ["Técnologias", "#technology"],
+                ["Experiências", "#experiences"],
+                ["Trabalhos", "#works"],
+                ["Contato", "#contact"],
               ].map(([title, url]) => (
                 <Link
                   key={title}
                   href={url}
-                  className={`w-full text-end rounded-none px-3 py-4 ${
+                  className={`w-full rounded-none px-3 py-4 text-end ${
                     theme == false ? "text-light" : "text-dark"
                   } font-medium hover:bg-blue-600`}
                 >
@@ -66,7 +66,7 @@ export default function Header() {
               ))}
             </nav>
           )}
-          <nav className="flex sm:justify-center space-x-4 max-[768px]:hidden">
+          <nav className="flex space-x-4 max-[768px]:hidden sm:justify-center">
             {[
               ["Principal", "#home"],
               ["Sobre", "#about"],
@@ -83,7 +83,7 @@ export default function Header() {
                   const element = document.querySelector(url);
                   element!.scrollIntoView({ behavior: "smooth" });
                 }}
-                className={`px-3 py-2 hover:text-blue-400 transition ${
+                className={`px-3 py-2 transition hover:text-blue-400 ${
                   theme == false ? "text-light" : "text-dark"
                 }`}
               >

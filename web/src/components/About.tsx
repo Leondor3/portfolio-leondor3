@@ -57,21 +57,12 @@ export default function About() {
 
   return (
     <div
-      className="relative w-full gap-16 py-16 max-lg:flex-col max-sm:px-6 md:py-20 lg:py-28"
+      className="relative w-full py-16 max-sm:px-6 md:py-20 lg:py-28"
       id="about"
     >
       <div className="container">
-        <div className="flex items-center justify-between">
-          <motion.div
-            ref={ref}
-            animate={controls}
-            variants={{
-              visible: { opacity: 1, x: 0 },
-              hidden: { opacity: 0, x: -100 },
-            }}
-            transition={{ duration: 1, delay: 0.5 }}
-            className="flex h-full max-w-[600px] flex-col items-start justify-start space-y-4"
-          >
+        <div className="flex items-center justify-between gap-16 max-lg:flex-col">
+          <div className="flex h-full max-w-[600px] flex-col items-start justify-start space-y-4">
             <SectionTitle
               title="Desenvolvedor Front-end com experiências"
               section="Sobre mim"
@@ -117,7 +108,7 @@ export default function About() {
                 </span>
               </Button>
             </div>
-          </motion.div>
+          </div>
           <motion.div
             ref={ref}
             animate={controls}

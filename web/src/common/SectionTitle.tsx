@@ -30,7 +30,7 @@ const SectionTitle = ({
         <h2
           className={`text-5xl ${
             theme == false ? "text-light" : "text-dark"
-          } font-bold !leading-tight sm:text-4xl md:text-[45px]`}
+          } font-bold !leading-tight max-sm:text-3xl max-md:text-[45px]`}
         >
           {title}
         </h2>

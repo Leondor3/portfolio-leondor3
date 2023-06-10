@@ -60,9 +60,9 @@ export default function Contact() {
   };
 
   return (
-    <div className="mb-32 w-full gap-6  py-16 max-lg:flex-col max-lg:px-6 md:py-20 lg:py-28">
+    <div className="mb-32 w-full gap-6 py-16 md:py-20 lg:py-28">
       <div className="container">
-        <div className="flex items-start justify-center">
+        <div className="flex items-start justify-center max-lg:flex-col max-lg:px-6">
           <TitleSide />
           <div className="flex w-96 flex-col items-start">
             <form

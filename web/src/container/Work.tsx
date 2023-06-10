@@ -9,42 +9,50 @@ import { ThemeContext } from "@/context/theme-context";
 export const Work = ({ ...props }) => {
   const { theme, setTheme } = useContext(ThemeContext);
   return (
-    <div className="flex relative items-start justify-start gap-32 w-full max-xl:flex-col max-xl:justify-center max-lg:items-start max-xl:gap-8 max-lg:px-4">
-      <a className="w-[650px] max-xl:flex-1 max-xl:w-full">
+    <div className="relative flex w-full items-start justify-start gap-32 max-xl:flex-col max-xl:justify-center max-xl:gap-8 max-lg:items-start max-lg:px-4">
+      <a className="w-[650px] max-xl:w-full max-xl:flex-1">
         <Image alt="" className="w-full object-cover" src={Potfolio1} />
       </a>
-      <div className="relative z-10 w-max text-left mb-4 flex flex-col space-y-4 flex-1 max-sm:mx-4">
+      <div className="mb-4 flex w-full flex-1 flex-col space-y-4 text-left">
         <span
           className={`${
             theme == false ? "text-white" : "text-zinc-900"
-          } text-left text-3xl`}
+          } text-left text-3xl max-sm:text-2xl`}
         >
           {props.title}
         </span>
         <div className="flex gap-4">
-          <div className="bg-blue-600/20 p-2 rounded-md w-max">
+          <div className="w-max rounded-md bg-blue-600/20 p-2">
             <Image src={reactIcon} width={22} alt="" title="React" />
           </div>
-          <div className="bg-blue-600/20 p-2 rounded-md w-max">
+          <div className="w-max rounded-md bg-blue-600/20 p-2">
             <Image src={tailwindIcon} width={22} alt="" title="TailwindCSS" />
           </div>
-          <div className="bg-blue-600/20 p-2 rounded-md w-max">
+          <div className="w-max rounded-md bg-blue-600/20 p-2">
             <Image src={typescriptIcon} width={22} alt="" title="Typescript" />
           </div>
         </div>
-        <span className="text-slate-400 max-lg:w-96">{props.description}</span>
-        <div className="flex gap-2 items-center">
-          <a href={props.github_url} target="_blank" className="text-white">
-            <button className="block bg-blue-600 hover:bg-blue-500 px-6 py-4 rounded-md">
+        <p className="w-max text-slate-400 max-xl:w-96 max-lg:w-auto">
+          {props.description}
+        </p>
+        <div className="flex items-center gap-2 max-sm:flex-col">
+          <a
+            href={props.github_url}
+            target="_blank"
+            className="text-white max-sm:w-full"
+          >
+            <button className="block rounded-md bg-blue-600 px-6 py-4 hover:bg-blue-500 max-sm:w-full">
               Ver Código
             </button>
           </a>
           <a
             href={props.link}
             target="_blank"
-            className="text-blue-400 hover:text-blue-300"
+            className="text-blue-400 hover:text-blue-300 max-sm:w-full"
           >
-            <button className="px-6 py-4 rounded-md">Ver Online</button>
+            <button className="rounded-md px-6 py-4 max-sm:w-full">
+              Ver Online
+            </button>
           </a>
         </div>
       </div>

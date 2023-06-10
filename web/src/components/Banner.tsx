@@ -24,23 +24,23 @@ export default function Banner() {
 
   return (
     <div
-      className="positive h-screen py-16 md:py-20 lg:py-28 flex items-center justify-center sm:px-4"
+      className="positive flex h-screen items-center justify-center py-16 sm:px-4 md:py-20 lg:py-28 max-sm:h-max max-sm:py-32"
       id="#home"
     >
-      <div className="flex items-center flex-col gap-2">
+      <div className="flex flex-col items-center gap-2">
         <div className="flex items-center">
-          <span className="text-blue-400 leading-relaxed">Hello Word</span>
+          <span className="leading-relaxed text-blue-400">Hello Word</span>
         </div>
         <div className="text-center">
           <h2
-            className={`text-4xl max-md:text-3xl font-bold text-white pb-2 ${
+            className={`pb-2 text-4xl font-bold text-white max-md:text-3xl ${
               theme == false ? "text-light" : "text-dark"
             }`}
           >
             Olá, eu sou {name}
           </h2>
           <h1
-            className={`text-5xl font-bold text-light pb-4 flex gap-2 max-md:text-3xl max-md:flex-col ${
+            className={`text-light flex gap-2 pb-4 text-5xl font-bold max-md:flex-col max-md:text-3xl ${
               theme == false ? "text-light" : "text-dark"
             }`}
           >
@@ -55,13 +55,13 @@ export default function Banner() {
             />
           </h1>
           <p
-            className={`w-[30rem] mx-0 my-auto max-md:w-full max-md:px-4 ${
+            className={`mx-0 my-auto w-[30rem] max-md:w-full max-md:px-4 ${
               theme == false ? "text-light" : "text-dark"
             }`}
           >
             {description}
           </p>
-          <div className="flex gap-4 items-center justify-center pt-4 max-sm:flex-col max-sm:mx-5">
+          <div className="flex items-center justify-center gap-4 pt-4 max-sm:mx-5 max-sm:flex-col">
             <Button isHighlight={true}>
               <FilePdf size={24} weight="fill" color="#fff" />
               <span className={`text-white`}>Curriculo</span>

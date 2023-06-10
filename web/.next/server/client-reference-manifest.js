@@ -1637,7 +1637,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/context/theme-context.tsx",
         "name": "*",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -1645,7 +1645,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/context/theme-context.tsx",
         "name": "",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -1653,7 +1653,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/context/theme-context.tsx",
         "name": "ThemeContext",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -1661,7 +1661,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/context/theme-context.tsx",
         "name": "ThemeProvider",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       }
@@ -1669,11 +1669,11 @@ self.__RSC_MANIFEST={
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "D:\\leand\\portfolio-next\\web\\src\\app\\layout": [
-      "static/css/app/layout.css"
-    ],
     "D:\\leand\\portfolio-next\\web\\src\\app\\page": [
       "static/css/app/page.css"
+    ],
+    "D:\\leand\\portfolio-next\\web\\src\\app\\layout": [
+      "static/css/app/layout.css"
     ]
   },
   "clientModules": {
@@ -3405,13 +3405,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\app\\globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
     "D:\\leand\\portfolio-next\\web\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\page.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}#": {
       "id": "null",
       "name": "default",
@@ -4431,7 +4424,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/context/theme-context.tsx",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -4439,7 +4432,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/context/theme-context.tsx",
       "name": "",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -4447,7 +4440,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/context/theme-context.tsx",
       "name": "ThemeContext",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -4455,9 +4448,16 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/context/theme-context.tsx",
       "name": "ThemeProvider",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
+    },
+    "D:\\leand\\portfolio-next\\web\\src\\app\\globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
     }
   }
 }
