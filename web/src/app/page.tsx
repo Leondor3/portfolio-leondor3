@@ -24,15 +24,7 @@ export default function Home() {
         theme == false ? "bg-[#12141d]" : "bg-white"
       }`}
     >
-      <Header />
-      <ScrollToTop />
-      <Banner />
-      <About />
-      <Technology />
-      <SectionExperience />
-      <Works />
-      <Contact />
-      <Footer />
+     <h1>Hello word</h1>
     </div>
   );
 }
