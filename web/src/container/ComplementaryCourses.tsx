@@ -18,19 +18,19 @@ export default function ComplementaryCourses() {
   const { theme, setTheme } = useContext(ThemeContext);
 
   return (
-    <div className="flex flex-col gap-4 h-max">
-      <div className="flex gap-4 items-center">
+    <div className="flex h-max flex-col gap-4">
+      <div className="flex items-center gap-4">
         <div
           className={`${
             theme == false ? "bg-bg-dark-secundary" : "bg-slate-400"
-          }  p-2 max-w-max rounded-md`}
+          }  max-w-max rounded-md p-2`}
         >
           <Student size={24} fill="#2563eb" />
         </div>
         <h1
           className={`${
             theme == false ? "text-light" : "text-dark"
-          } text-3xl font-bold`}
+          } text-3xl font-bold max-sm:text-2xl`}
         >
           Educação
         </h1>
@@ -38,28 +38,34 @@ export default function ComplementaryCourses() {
       <div
         className={`${
           theme == false ? "bg-bg-dark-secundary" : "bg-white"
-        } shadow-lg w-full`}
+        } w-full shadow-lg`}
       >
         {MockupCourses.cursos.map((curso, index) => (
           <div
-            className="p-4 flex flex-col space-y-2 after:h-px after:w-full after:bg-gray-500 after:mt-4"
+            className="flex flex-col space-y-4 p-4 after:mt-4 after:h-px after:w-full after:bg-gray-500"
             key={index}
           >
-            <div className="flex justify-between">
-              <h1
-                className={`${theme == false ? "text-white" : "text-zinc-900"}`}
-              >
+            <div className="flex justify-between max-sm:flex-col max-sm:gap-2">
+              <h1 className={`${theme == false ? "text-light" : "text-dark"}`}>
                 {curso.title}
               </h1>
               <span
                 className={`${
-                  curso.state ? "text-green-400" : "text-orange-400"
+                  curso.state == "Concluído"
+                    ? "text-green-400"
+                    : "text-orange-400"
                 } italic`}
               >
-                {curso.state ? "Concluido" : "Incompleto"}
+                {curso.state}
               </span>
             </div>
-            <p className="text-sm mt-2">{curso.description}</p>
+            <p
+              className={`${
+                theme == false ? "text-light" : "text-dark"
+              } text-sm}`}
+            >
+              {curso.description}
+            </p>
             <span
               className={`${
                 theme == false ? "text-light" : "text-dark"

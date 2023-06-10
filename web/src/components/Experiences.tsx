@@ -26,7 +26,7 @@ export default function SectionExperience() {
 
   return (
     <motion.div
-      className="positive py-16 md:py-20 lg:py-28 sm:px-6 max-sm:px-6"
+      className="positive py-16 max-sm:px-6 sm:px-6 md:py-20 lg:py-28"
       id="experiences"
     >
       <div className="container">
@@ -40,13 +40,13 @@ export default function SectionExperience() {
           }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          <div className="text-left relative pt-20 space-y-4">
+          <div className="relative space-y-4 pt-20 text-left">
             <SectionTitle
               title="Minha jornada como desenvolvedor Front End: Aprendizados e conquistas"
               section="Jornada até aqui"
             />
           </div>
-          <div className="grid grid-cols-2 mt-12 gap-16 h-full max-sm:grid-cols-1 max-lg:grid-cols-1">
+          <div className="mt-12 grid h-full grid-cols-2 gap-16 max-lg:grid-cols-1 max-sm:grid-cols-1">
             <ComplementaryCourses />
             <Jobs />
           </div>

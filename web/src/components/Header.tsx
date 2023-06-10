@@ -35,7 +35,7 @@ export default function Header() {
             Leondor3
           </span>
           <button
-            className="absolute right-4 top-3 max-sm:top-6 md:hidden"
+            className="absolute right-4 top-3 max-lg:top-6 max-sm:top-6 md:hidden"
             onClick={() => setIsBurger(!isBurguer)}
           >
             <List size={32} color="#1178FF" />

@@ -33,7 +33,7 @@ export default function Jobs() {
         <h1
           className={`${
             theme == false ? "text-light" : "text-zinc-800"
-          } text-3xl font-bold`}
+          } text-3xl font-bold max-sm:text-2xl`}
         >
           Trabalho
         </h1>
@@ -46,11 +46,11 @@ export default function Jobs() {
               theme == false ? "bg-[#1c1f27]" : "bg-white"
             } shadow-lg w-full`}
           >
-            <div className="p-4 flex flex-col">
-              <div className="flex justify-between">
+            <div className="p-4 flex flex-col space-y-4">
+              <div className="flex justify-between max-sm:flex-col max-sm:gap-2">
                 <h1
                   className={`${
-                    theme == false ? "text-light" : "text-zinc-800"
+                    theme == false ? "text-light" : "text-dark"
                   } font-bold`}
                 >
                   {item.title}
@@ -61,14 +61,14 @@ export default function Jobs() {
               </div>
               <p
                 className={`${
-                  theme == false ? "text-light" : "text-zinc-800"
+                  theme == false ? "text-light" : "text-dark"
                 } text-sm`}
               >
                 Cargo: <b className="">{item.position}</b>
               </p>
               <p
                 className={`${
-                  theme == false ? "text-light" : "text-zinc-800"
+                  theme == false ? "text-light" : "text-dark"
                 } text-sm`}
               >
                 {item.duration} ~ Atualmente
@@ -77,7 +77,7 @@ export default function Jobs() {
                 {item.tasks.map((task) => (
                   <li
                     className={`${
-                      theme == false ? "text-light" : "text-zinc-800"
+                      theme == false ? "text-light" : "text-dark"
                     } flex items-start gap-2`}
                     key={task.id}
                   >

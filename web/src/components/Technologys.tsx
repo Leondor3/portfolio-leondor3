@@ -136,7 +136,7 @@ export default function Technology() {
             </p>
           </div>
           <div className="flex flex-col items-center">
-            <div className="mx-auto mt-8 grid w-[46rem] grid-flow-row grid-cols-6 place-items-center gap-6 max-lg:mx-5 max-lg:grid-cols-3 max-lg:gap-16 max-sm:w-max max-sm:grid-cols-3 max-sm:gap-8">
+            <div className="mx-auto mt-8 grid  grid-flow-row grid-cols-6 place-items-center gap-16 max-lg:mx-5 max-lg:grid-cols-3 max-lg:gap-16 max-sm:w-max max-sm:grid-cols-3 max-sm:gap-8 justify-center">
               {technology.map((item) => {
                 return (
                   <div
