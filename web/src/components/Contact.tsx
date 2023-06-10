@@ -64,7 +64,7 @@ export default function Contact() {
       <div className="container">
         <div className="flex items-start justify-center max-lg:flex-col max-lg:px-6">
           <TitleSide />
-          <div className="flex w-96 flex-col items-start justify-start mt-4 w-full">
+          <div className="flex w-96 flex-col items-start justify-start mt-4 max-lg:w-full">
             <form
               className="w-full"
               onSubmit={handleSubmit(onSubmit)}

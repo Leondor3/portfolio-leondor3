@@ -32,7 +32,7 @@ export const Work = ({ ...props }) => {
             <Image src={typescriptIcon} width={22} alt="" title="Typescript" />
           </div>
         </div>
-        <p className="w-max text-slate-400 max-xl:w-96 max-lg:w-auto">
+        <p className="text-slate-400 w-96 max-lg:w-auto">
           {props.description}
         </p>
         <div className="flex items-center gap-2 max-sm:flex-col">

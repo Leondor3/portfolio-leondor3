@@ -4,8 +4,7 @@ import dotenv from "dotenv";
 import twilio from "twilio";
 
 dotenv.config();
-
-export default async function handler(
+export async function POST(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
