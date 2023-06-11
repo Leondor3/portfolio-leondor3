@@ -11,7 +11,7 @@ export const Work = ({ ...props }) => {
   return (
     <div className="relative flex w-full items-start justify-start gap-32 max-xl:flex-col max-xl:justify-center max-xl:gap-8 max-lg:items-start max-lg:px-4">
       <a className="w-[650px] max-xl:w-full max-xl:flex-1">
-        <Image alt="" className="w-full object-cover" src={Potfolio1} />
+        <Image alt="" className="w-full object-cover" src={props.imagem_url} width="600" height="600"/>
       </a>
       <div className="mb-4 flex w-full flex-1 flex-col space-y-4 text-left">
         <span

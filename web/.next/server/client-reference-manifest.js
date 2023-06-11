@@ -1096,32 +1096,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./src/assets/startup.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/startup.png",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/assets/startup.png",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/assets/startup.png",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./node_modules/next/dist/client/image.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
@@ -3718,30 +3692,6 @@ self.__RSC_MANIFEST={
     },
     "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-typescript.svg#default": {
       "id": "(app-client)/./src/assets/logo-typescript.svg",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\startup.png": {
-      "id": "(app-client)/./src/assets/startup.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\startup.png#": {
-      "id": "(app-client)/./src/assets/startup.png",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\startup.png#default": {
-      "id": "(app-client)/./src/assets/startup.png",
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"

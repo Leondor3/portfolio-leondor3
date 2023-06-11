@@ -17,7 +17,7 @@ export default function Works() {
             center
           />
         </div>
-        <div className="mx-6 flex flex-1 py-16">
+        <div className="mx-6 flex flex-1 py-16 flex-col gap-12">
           {MockupWorks.works?.map((work, index) => (
             <div
               key={index}

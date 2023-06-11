@@ -10,6 +10,7 @@ import Image from "next/image";
 import { ThemeContext } from "@/context/theme-context";
 import { Button } from "@/common/Button";
 import SectionTitle from "@/common/SectionTitle";
+import Link from "next/link";
 
 export default function About() {
   const { theme, setTheme } = useContext(ThemeContext);
@@ -68,9 +69,8 @@ export default function About() {
               section="Sobre mim"
             />
             <p
-              className={`${
-                theme == false ? "text-slate-400" : "text-zinc-800"
-              } paragraphLong`}
+              className={`${theme == false ? "text-slate-400" : "text-zinc-800"
+                } paragraphLong`}
             >
               Meu nome é Leandro de Araujo dos Santos, tenho 24 anos e sou
               desenvolvedor front-end com mais de um ano de experiência, sou
@@ -93,20 +93,12 @@ export default function About() {
               disponível para oportunidades emocionantes.
             </p>
             <div className="flex w-full gap-2">
-              <Button isHighlight>
-                <FilePdf size={24} weight="fill" color="#fff" />
-                <span className="leading-relaxed text-white">Curriculo</span>
-              </Button>
-              <Button>
-                <LinkedinLogo size={24} />
-                <span
-                  className={`${
-                    theme == false ? "text-light" : "text-blue-500"
-                  }`}
-                >
-                  Linkedin
-                </span>
-              </Button>
+              <Link href="https://www.linkedin.com/in/leandro-de-araujo/"
+                target="_blank"
+                className={`text-light py-4 px-8  bg-blue-500 flex gap-2 rounded-md`}>
+                <LinkedinLogo size={24} color="#fff" />
+                Linkedin
+              </Link>
             </div>
           </div>
           <motion.div
