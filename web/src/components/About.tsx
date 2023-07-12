@@ -4,7 +4,7 @@ import react, { useState, useEffect, useContext } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { FilePdf, LinkedinLogo } from "@phosphor-icons/react";
-import IllustrationPerfil from "../assets/illustration-perfil.jpeg";
+import IllustrationPerfil from "../assets/LEO.png";
 
 import Image from "next/image";
 import { ThemeContext } from "@/context/theme-context";
@@ -109,7 +109,7 @@ export default function About() {
               hidden: { opacity: 0, x: 100 },
             }}
             transition={{ duration: 1, delay: 0.5 }}
-            className="block w-[450px] mix-blend-luminosity max-lg:w-full max-lg:!translate-x-[100]"
+            className="block w-[450px] max-lg:w-full max-lg:!translate-x-[100]"
           >
             <Image
               className="h-full w-full object-cover"

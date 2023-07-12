@@ -758,9 +758,9 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./src/assets/illustration-perfil.jpeg": {
+    "(app-client)/./src/assets/LEO.png": {
       "*": {
-        "id": "(sc_client)/./src/assets/illustration-perfil.jpeg",
+        "id": "(sc_client)/./src/assets/LEO.png",
         "name": "*",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -768,7 +768,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "": {
-        "id": "(sc_client)/./src/assets/illustration-perfil.jpeg",
+        "id": "(sc_client)/./src/assets/LEO.png",
         "name": "",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -776,7 +776,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./src/assets/illustration-perfil.jpeg",
+        "id": "(sc_client)/./src/assets/LEO.png",
         "name": "default",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -1643,15 +1643,15 @@ self.__RSC_MANIFEST={
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "D:\\leand\\portfolio-next\\web\\src\\app\\page": [
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\app\\page": [
       "static/css/app/page.css"
     ],
-    "D:\\leand\\portfolio-next\\web\\src\\app\\layout": [
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\app\\layout": [
       "static/css/app/layout.css"
     ]
   },
   "clientModules": {
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -1659,7 +1659,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -1667,7 +1667,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -1675,7 +1675,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -1683,7 +1683,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -1691,7 +1691,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -1699,7 +1699,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#getServerActionDispatcher": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#getServerActionDispatcher": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "getServerActionDispatcher",
       "chunks": [
@@ -1707,7 +1707,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#getServerActionDispatcher": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#getServerActionDispatcher": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "getServerActionDispatcher",
       "chunks": [
@@ -1715,7 +1715,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -1723,7 +1723,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -1731,7 +1731,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#TODO-APP": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#TODO-APP": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "TODO-APP",
       "chunks": [
@@ -1739,7 +1739,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#TODO-APP": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#TODO-APP": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "TODO-APP",
       "chunks": [
@@ -1747,7 +1747,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#__NA": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#__NA": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "__NA",
       "chunks": [
@@ -1755,7 +1755,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#__NA": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#__NA": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "__NA",
       "chunks": [
@@ -1763,7 +1763,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#location": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#location": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "location",
       "chunks": [
@@ -1771,7 +1771,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#location": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#location": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "location",
       "chunks": [
@@ -1779,7 +1779,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#\"http": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#\"http": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "\"http",
       "chunks": [
@@ -1787,7 +1787,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#\"http": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#\"http": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "\"http",
       "chunks": [
@@ -1795,7 +1795,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#searchParams": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#searchParams": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "searchParams",
       "chunks": [
@@ -1803,7 +1803,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#searchParams": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#searchParams": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "searchParams",
       "chunks": [
@@ -1811,7 +1811,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#pathname": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#pathname": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "pathname",
       "chunks": [
@@ -1819,7 +1819,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#pathname": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#pathname": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "pathname",
       "chunks": [
@@ -1827,7 +1827,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#type": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#type": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "type",
       "chunks": [
@@ -1835,7 +1835,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#type": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#type": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "type",
       "chunks": [
@@ -1843,7 +1843,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#cache": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#cache": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "cache",
       "chunks": [
@@ -1851,7 +1851,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#cache": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#cache": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "cache",
       "chunks": [
@@ -1859,7 +1859,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#status": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#status": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "status",
       "chunks": [
@@ -1867,7 +1867,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#status": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#status": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "status",
       "chunks": [
@@ -1875,7 +1875,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#data": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#data": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "data",
       "chunks": [
@@ -1883,7 +1883,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#data": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#data": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "data",
       "chunks": [
@@ -1891,7 +1891,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#subTreeData": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#subTreeData": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "subTreeData",
       "chunks": [
@@ -1899,7 +1899,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#subTreeData": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#subTreeData": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "subTreeData",
       "chunks": [
@@ -1907,7 +1907,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#parallelRoutes": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#parallelRoutes": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "parallelRoutes",
       "chunks": [
@@ -1915,7 +1915,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#parallelRoutes": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#parallelRoutes": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "parallelRoutes",
       "chunks": [
@@ -1923,7 +1923,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#mutable": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#mutable": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "mutable",
       "chunks": [
@@ -1931,7 +1931,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#mutable": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#mutable": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "mutable",
       "chunks": [
@@ -1939,7 +1939,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#isExternalUrl": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#isExternalUrl": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "isExternalUrl",
       "chunks": [
@@ -1947,7 +1947,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#isExternalUrl": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#isExternalUrl": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "isExternalUrl",
       "chunks": [
@@ -1955,7 +1955,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#locationSearch": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#locationSearch": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "locationSearch",
       "chunks": [
@@ -1963,7 +1963,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#locationSearch": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#locationSearch": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "locationSearch",
       "chunks": [
@@ -1971,7 +1971,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#back": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#back": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "back",
       "chunks": [
@@ -1979,7 +1979,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#back": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#back": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "back",
       "chunks": [
@@ -1987,7 +1987,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#forward": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#forward": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "forward",
       "chunks": [
@@ -1995,7 +1995,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#forward": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#forward": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "forward",
       "chunks": [
@@ -2003,7 +2003,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#prefetch": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#prefetch": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "prefetch",
       "chunks": [
@@ -2011,7 +2011,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#prefetch": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#prefetch": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "prefetch",
       "chunks": [
@@ -2019,7 +2019,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#kind": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#kind": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "kind",
       "chunks": [
@@ -2027,7 +2027,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#kind": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#kind": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "kind",
       "chunks": [
@@ -2035,7 +2035,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#replace": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#replace": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "replace",
       "chunks": [
@@ -2043,7 +2043,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#replace": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#replace": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "replace",
       "chunks": [
@@ -2051,7 +2051,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#push": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#push": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "push",
       "chunks": [
@@ -2059,7 +2059,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#push": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#push": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "push",
       "chunks": [
@@ -2067,7 +2067,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#refresh": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#refresh": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "refresh",
       "chunks": [
@@ -2075,7 +2075,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#refresh": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#refresh": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "refresh",
       "chunks": [
@@ -2083,7 +2083,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#origin": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#origin": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "origin",
       "chunks": [
@@ -2091,7 +2091,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#origin": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#origin": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "origin",
       "chunks": [
@@ -2099,7 +2099,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#fastRefresh": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#fastRefresh": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "fastRefresh",
       "chunks": [
@@ -2107,7 +2107,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#fastRefresh": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#fastRefresh": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "fastRefresh",
       "chunks": [
@@ -2115,7 +2115,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#router": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#router": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "router",
       "chunks": [
@@ -2123,7 +2123,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#router": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#router": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "router",
       "chunks": [
@@ -2131,7 +2131,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#(eg": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#(eg": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "(eg",
       "chunks": [
@@ -2139,7 +2139,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#(eg": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#(eg": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "(eg",
       "chunks": [
@@ -2147,7 +2147,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#url": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#url": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "url",
       "chunks": [
@@ -2155,7 +2155,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#url": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#url": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "url",
       "chunks": [
@@ -2163,7 +2163,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#tree": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#tree": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "tree",
       "chunks": [
@@ -2171,7 +2171,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#tree": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#tree": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "tree",
       "chunks": [
@@ -2179,7 +2179,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#notFound": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#notFound": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "notFound",
       "chunks": [
@@ -2187,7 +2187,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#notFound": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#notFound": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "notFound",
       "chunks": [
@@ -2195,7 +2195,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#notFoundStyles": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#notFoundStyles": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "notFoundStyles",
       "chunks": [
@@ -2203,7 +2203,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#notFoundStyles": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#notFoundStyles": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "notFoundStyles",
       "chunks": [
@@ -2211,7 +2211,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#asNotFound": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#asNotFound": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "asNotFound",
       "chunks": [
@@ -2219,7 +2219,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#asNotFound": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#asNotFound": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "asNotFound",
       "chunks": [
@@ -2227,7 +2227,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#pushRef": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#pushRef": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "pushRef",
       "chunks": [
@@ -2235,7 +2235,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#pushRef": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#pushRef": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "pushRef",
       "chunks": [
@@ -2243,7 +2243,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#canonicalUrl": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#canonicalUrl": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "canonicalUrl",
       "chunks": [
@@ -2251,7 +2251,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#canonicalUrl": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#canonicalUrl": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "canonicalUrl",
       "chunks": [
@@ -2259,7 +2259,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#sync": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#sync": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "sync",
       "chunks": [
@@ -2267,7 +2267,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#sync": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#sync": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "sync",
       "chunks": [
@@ -2275,7 +2275,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#value": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "value",
       "chunks": [
@@ -2283,7 +2283,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#value": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "value",
       "chunks": [
@@ -2291,7 +2291,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#childNodes": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#childNodes": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "childNodes",
       "chunks": [
@@ -2299,7 +2299,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#childNodes": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#childNodes": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "childNodes",
       "chunks": [
@@ -2307,7 +2307,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#assetPrefix": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#assetPrefix": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "assetPrefix",
       "chunks": [
@@ -2315,7 +2315,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#assetPrefix": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#assetPrefix": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "assetPrefix",
       "chunks": [
@@ -2323,7 +2323,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#errorComponent": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\app-router.js#errorComponent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "errorComponent",
       "chunks": [
@@ -2331,7 +2331,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#errorComponent": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#errorComponent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "errorComponent",
       "chunks": [
@@ -2339,7 +2339,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -2347,7 +2347,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -2355,7 +2355,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -2363,7 +2363,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -2371,7 +2371,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -2379,7 +2379,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -2387,7 +2387,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundaryHandler",
       "chunks": [
@@ -2395,7 +2395,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundaryHandler",
       "chunks": [
@@ -2403,7 +2403,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundary": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -2411,7 +2411,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundary": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -2419,7 +2419,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#error": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#error": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "error",
       "chunks": [
@@ -2427,7 +2427,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#error": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#error": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "error",
       "chunks": [
@@ -2435,7 +2435,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#https": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#https": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "https",
       "chunks": [
@@ -2443,7 +2443,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#https": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#https": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "https",
       "chunks": [
@@ -2451,7 +2451,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontFamily": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontFamily": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontFamily",
       "chunks": [
@@ -2459,7 +2459,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontFamily": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontFamily": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontFamily",
       "chunks": [
@@ -2467,7 +2467,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#height": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#height": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "height",
       "chunks": [
@@ -2475,7 +2475,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#height": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#height": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "height",
       "chunks": [
@@ -2483,7 +2483,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#textAlign": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#textAlign": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "textAlign",
       "chunks": [
@@ -2491,7 +2491,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#textAlign": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#textAlign": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "textAlign",
       "chunks": [
@@ -2499,7 +2499,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#display": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#display": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "display",
       "chunks": [
@@ -2507,7 +2507,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#display": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#display": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "display",
       "chunks": [
@@ -2515,7 +2515,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#flexDirection": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#flexDirection": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "flexDirection",
       "chunks": [
@@ -2523,7 +2523,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#flexDirection": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#flexDirection": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "flexDirection",
       "chunks": [
@@ -2531,7 +2531,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#alignItems": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#alignItems": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "alignItems",
       "chunks": [
@@ -2539,7 +2539,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#alignItems": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#alignItems": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "alignItems",
       "chunks": [
@@ -2547,7 +2547,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#justifyContent": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#justifyContent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "justifyContent",
       "chunks": [
@@ -2555,7 +2555,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#justifyContent": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#justifyContent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "justifyContent",
       "chunks": [
@@ -2563,7 +2563,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#desc": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#desc": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "desc",
       "chunks": [
@@ -2571,7 +2571,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#desc": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#desc": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "desc",
       "chunks": [
@@ -2579,7 +2579,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#text": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#text": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "text",
       "chunks": [
@@ -2587,7 +2587,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#text": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#text": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "text",
       "chunks": [
@@ -2595,7 +2595,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontSize": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontSize": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontSize",
       "chunks": [
@@ -2603,7 +2603,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontSize": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontSize": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontSize",
       "chunks": [
@@ -2611,7 +2611,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontWeight": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontWeight": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontWeight",
       "chunks": [
@@ -2619,7 +2619,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontWeight": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontWeight": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontWeight",
       "chunks": [
@@ -2627,7 +2627,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#lineHeight": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#lineHeight": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "lineHeight",
       "chunks": [
@@ -2635,7 +2635,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#lineHeight": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#lineHeight": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "lineHeight",
       "chunks": [
@@ -2643,7 +2643,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#margin": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#margin": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "margin",
       "chunks": [
@@ -2651,7 +2651,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#margin": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#margin": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "margin",
       "chunks": [
@@ -2659,7 +2659,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#previousPathname": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#previousPathname": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "previousPathname",
       "chunks": [
@@ -2667,7 +2667,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#previousPathname": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#previousPathname": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "previousPathname",
       "chunks": [
@@ -2675,7 +2675,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#reset": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#reset": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "reset",
       "chunks": [
@@ -2683,7 +2683,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#reset": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#reset": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "reset",
       "chunks": [
@@ -2691,7 +2691,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#style": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#style": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "style",
       "chunks": [
@@ -2699,7 +2699,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#style": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#style": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "style",
       "chunks": [
@@ -2707,7 +2707,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#\"Digest": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#\"Digest": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "\"Digest",
       "chunks": [
@@ -2715,7 +2715,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#\"Digest": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#\"Digest": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "\"Digest",
       "chunks": [
@@ -2723,7 +2723,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#pathname": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#pathname": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "pathname",
       "chunks": [
@@ -2731,7 +2731,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#pathname": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#pathname": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "pathname",
       "chunks": [
@@ -2739,7 +2739,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#errorComponent": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#errorComponent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "errorComponent",
       "chunks": [
@@ -2747,7 +2747,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#errorComponent": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#errorComponent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "errorComponent",
       "chunks": [
@@ -2755,7 +2755,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#errorStyles": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#errorStyles": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "errorStyles",
       "chunks": [
@@ -2763,7 +2763,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#errorStyles": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#errorStyles": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "errorStyles",
       "chunks": [
@@ -2771,7 +2771,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#value": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\error-boundary.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "value",
       "chunks": [
@@ -2779,7 +2779,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#value": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "value",
       "chunks": [
@@ -2787,7 +2787,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -2795,7 +2795,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -2803,7 +2803,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -2811,7 +2811,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -2819,7 +2819,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -2827,7 +2827,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -2835,7 +2835,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectErrorBoundary",
       "chunks": [
@@ -2843,7 +2843,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectErrorBoundary",
       "chunks": [
@@ -2851,7 +2851,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectBoundary": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -2859,7 +2859,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectBoundary": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -2867,7 +2867,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#redirect": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#redirect": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "redirect",
       "chunks": [
@@ -2875,7 +2875,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#redirect": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#redirect": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "redirect",
       "chunks": [
@@ -2883,7 +2883,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#redirectType": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#redirectType": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "redirectType",
       "chunks": [
@@ -2891,7 +2891,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#redirectType": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#redirectType": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "redirectType",
       "chunks": [
@@ -2899,7 +2899,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#reset": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#reset": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "reset",
       "chunks": [
@@ -2907,7 +2907,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#reset": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#reset": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "reset",
       "chunks": [
@@ -2915,7 +2915,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#router": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#router": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "router",
       "chunks": [
@@ -2923,7 +2923,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#router": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#router": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "router",
       "chunks": [
@@ -2931,7 +2931,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#value": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "value",
       "chunks": [
@@ -2939,7 +2939,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#value": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "value",
       "chunks": [
@@ -2947,7 +2947,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -2955,7 +2955,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -2963,7 +2963,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -2971,7 +2971,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -2979,7 +2979,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -2987,7 +2987,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -2995,7 +2995,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -3003,7 +3003,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -3011,7 +3011,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -3019,7 +3019,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -3027,7 +3027,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#CacheStates": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -3035,7 +3035,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#CacheStates": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -3043,7 +3043,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#AppRouterContext": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -3051,7 +3051,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#AppRouterContext": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -3059,7 +3059,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -3067,7 +3067,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -3075,7 +3075,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -3083,7 +3083,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -3091,7 +3091,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#TemplateContext": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -3099,7 +3099,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#TemplateContext": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -3107,7 +3107,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -3115,7 +3115,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -3123,7 +3123,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -3131,7 +3131,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -3139,15 +3139,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "SearchParamsContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "SearchParamsContext",
       "chunks": [
@@ -3155,7 +3147,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#PathnameContext": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "name": "SearchParamsContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -3163,7 +3163,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#PathnameContext": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -3171,7 +3171,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -3179,7 +3179,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -3187,7 +3187,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -3195,7 +3195,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -3203,15 +3203,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "ServerInsertedHTMLContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "ServerInsertedHTMLContext",
       "chunks": [
@@ -3219,7 +3211,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "name": "ServerInsertedHTMLContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -3227,7 +3227,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -3235,7 +3235,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -3243,7 +3243,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -3251,7 +3251,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -3259,7 +3259,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -3267,7 +3267,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -3275,7 +3275,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -3283,7 +3283,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -3291,7 +3291,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -3299,7 +3299,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -3307,7 +3307,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -3315,7 +3315,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -3323,7 +3323,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -3331,7 +3331,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -3339,7 +3339,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -3347,7 +3347,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -3355,7 +3355,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -3363,7 +3363,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -3371,7 +3371,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -3379,38 +3379,38 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\page.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\font\\google\\target.css?{\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"import\":\"Inter\",\"path\":\"src\\\\app\\\\page.tsx\",\"variableName\":\"inter\"}#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/page.css"
       ]
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\illustration-perfil.jpeg": {
-      "id": "(app-client)/./src/assets/illustration-perfil.jpeg",
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\LEO.png": {
+      "id": "(app-client)/./src/assets/LEO.png",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\illustration-perfil.jpeg#": {
-      "id": "(app-client)/./src/assets/illustration-perfil.jpeg",
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\LEO.png#": {
+      "id": "(app-client)/./src/assets/LEO.png",
       "name": "",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\illustration-perfil.jpeg#default": {
-      "id": "(app-client)/./src/assets/illustration-perfil.jpeg",
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\LEO.png#default": {
+      "id": "(app-client)/./src/assets/LEO.png",
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-bootstrap.svg": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-bootstrap.svg": {
       "id": "(app-client)/./src/assets/logo-bootstrap.svg",
       "name": "*",
       "chunks": [
@@ -3418,7 +3418,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-bootstrap.svg#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-bootstrap.svg#": {
       "id": "(app-client)/./src/assets/logo-bootstrap.svg",
       "name": "",
       "chunks": [
@@ -3426,7 +3426,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-bootstrap.svg#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-bootstrap.svg#default": {
       "id": "(app-client)/./src/assets/logo-bootstrap.svg",
       "name": "default",
       "chunks": [
@@ -3434,7 +3434,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-css.svg": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-css.svg": {
       "id": "(app-client)/./src/assets/logo-css.svg",
       "name": "*",
       "chunks": [
@@ -3442,7 +3442,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-css.svg#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-css.svg#": {
       "id": "(app-client)/./src/assets/logo-css.svg",
       "name": "",
       "chunks": [
@@ -3450,7 +3450,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-css.svg#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-css.svg#default": {
       "id": "(app-client)/./src/assets/logo-css.svg",
       "name": "default",
       "chunks": [
@@ -3458,7 +3458,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-cypress.svg": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-cypress.svg": {
       "id": "(app-client)/./src/assets/logo-cypress.svg",
       "name": "*",
       "chunks": [
@@ -3466,7 +3466,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-cypress.svg#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-cypress.svg#": {
       "id": "(app-client)/./src/assets/logo-cypress.svg",
       "name": "",
       "chunks": [
@@ -3474,7 +3474,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-cypress.svg#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-cypress.svg#default": {
       "id": "(app-client)/./src/assets/logo-cypress.svg",
       "name": "default",
       "chunks": [
@@ -3482,7 +3482,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-html.svg": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-html.svg": {
       "id": "(app-client)/./src/assets/logo-html.svg",
       "name": "*",
       "chunks": [
@@ -3490,7 +3490,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-html.svg#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-html.svg#": {
       "id": "(app-client)/./src/assets/logo-html.svg",
       "name": "",
       "chunks": [
@@ -3498,7 +3498,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-html.svg#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-html.svg#default": {
       "id": "(app-client)/./src/assets/logo-html.svg",
       "name": "default",
       "chunks": [
@@ -3506,7 +3506,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-javascript.svg": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-javascript.svg": {
       "id": "(app-client)/./src/assets/logo-javascript.svg",
       "name": "*",
       "chunks": [
@@ -3514,7 +3514,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-javascript.svg#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-javascript.svg#": {
       "id": "(app-client)/./src/assets/logo-javascript.svg",
       "name": "",
       "chunks": [
@@ -3522,7 +3522,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-javascript.svg#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-javascript.svg#default": {
       "id": "(app-client)/./src/assets/logo-javascript.svg",
       "name": "default",
       "chunks": [
@@ -3530,7 +3530,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-next.svg": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-next.svg": {
       "id": "(app-client)/./src/assets/logo-next.svg",
       "name": "*",
       "chunks": [
@@ -3538,7 +3538,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-next.svg#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-next.svg#": {
       "id": "(app-client)/./src/assets/logo-next.svg",
       "name": "",
       "chunks": [
@@ -3546,7 +3546,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-next.svg#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-next.svg#default": {
       "id": "(app-client)/./src/assets/logo-next.svg",
       "name": "default",
       "chunks": [
@@ -3554,7 +3554,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-radix.svg": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-radix.svg": {
       "id": "(app-client)/./src/assets/logo-radix.svg",
       "name": "*",
       "chunks": [
@@ -3562,7 +3562,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-radix.svg#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-radix.svg#": {
       "id": "(app-client)/./src/assets/logo-radix.svg",
       "name": "",
       "chunks": [
@@ -3570,7 +3570,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-radix.svg#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-radix.svg#default": {
       "id": "(app-client)/./src/assets/logo-radix.svg",
       "name": "default",
       "chunks": [
@@ -3578,7 +3578,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-react.svg": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-react.svg": {
       "id": "(app-client)/./src/assets/logo-react.svg",
       "name": "*",
       "chunks": [
@@ -3586,7 +3586,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-react.svg#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-react.svg#": {
       "id": "(app-client)/./src/assets/logo-react.svg",
       "name": "",
       "chunks": [
@@ -3594,7 +3594,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-react.svg#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-react.svg#default": {
       "id": "(app-client)/./src/assets/logo-react.svg",
       "name": "default",
       "chunks": [
@@ -3602,7 +3602,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-sass.svg": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-sass.svg": {
       "id": "(app-client)/./src/assets/logo-sass.svg",
       "name": "*",
       "chunks": [
@@ -3610,7 +3610,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-sass.svg#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-sass.svg#": {
       "id": "(app-client)/./src/assets/logo-sass.svg",
       "name": "",
       "chunks": [
@@ -3618,7 +3618,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-sass.svg#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-sass.svg#default": {
       "id": "(app-client)/./src/assets/logo-sass.svg",
       "name": "default",
       "chunks": [
@@ -3626,7 +3626,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-styled.svg": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-styled.svg": {
       "id": "(app-client)/./src/assets/logo-styled.svg",
       "name": "*",
       "chunks": [
@@ -3634,7 +3634,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-styled.svg#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-styled.svg#": {
       "id": "(app-client)/./src/assets/logo-styled.svg",
       "name": "",
       "chunks": [
@@ -3642,7 +3642,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-styled.svg#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-styled.svg#default": {
       "id": "(app-client)/./src/assets/logo-styled.svg",
       "name": "default",
       "chunks": [
@@ -3650,7 +3650,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-tailwind.svg": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-tailwind.svg": {
       "id": "(app-client)/./src/assets/logo-tailwind.svg",
       "name": "*",
       "chunks": [
@@ -3658,7 +3658,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-tailwind.svg#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-tailwind.svg#": {
       "id": "(app-client)/./src/assets/logo-tailwind.svg",
       "name": "",
       "chunks": [
@@ -3666,7 +3666,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-tailwind.svg#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-tailwind.svg#default": {
       "id": "(app-client)/./src/assets/logo-tailwind.svg",
       "name": "default",
       "chunks": [
@@ -3674,7 +3674,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-typescript.svg": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-typescript.svg": {
       "id": "(app-client)/./src/assets/logo-typescript.svg",
       "name": "*",
       "chunks": [
@@ -3682,7 +3682,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-typescript.svg#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-typescript.svg#": {
       "id": "(app-client)/./src/assets/logo-typescript.svg",
       "name": "",
       "chunks": [
@@ -3690,7 +3690,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\assets\\logo-typescript.svg#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\assets\\logo-typescript.svg#default": {
       "id": "(app-client)/./src/assets/logo-typescript.svg",
       "name": "default",
       "chunks": [
@@ -3698,7 +3698,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\image.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\image.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
@@ -3706,7 +3706,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\image.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\image.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
@@ -3714,7 +3714,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\image.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\image.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
@@ -3722,7 +3722,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\image.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\image.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
@@ -3730,7 +3730,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\image.js#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\image.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
@@ -3738,7 +3738,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\image.js#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\image.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
@@ -3746,7 +3746,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\link.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
@@ -3754,7 +3754,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\link.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
@@ -3762,7 +3762,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\link.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\link.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
@@ -3770,7 +3770,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\link.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\link.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
@@ -3778,7 +3778,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\client\\link.js#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\client\\link.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
@@ -3786,7 +3786,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
@@ -3794,7 +3794,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\head.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\head.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
@@ -3802,7 +3802,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
@@ -3810,7 +3810,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
@@ -3818,7 +3818,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
@@ -3826,7 +3826,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#default": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
@@ -3834,7 +3834,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#default": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
@@ -3842,7 +3842,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#defaultHead": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#defaultHead": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
@@ -3850,7 +3850,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#defaultHead": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#defaultHead": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
@@ -3858,7 +3858,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#charSet": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#charSet": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "charSet",
       "chunks": [
@@ -3866,7 +3866,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#charSet": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#charSet": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "charSet",
       "chunks": [
@@ -3874,7 +3874,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#name": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#name": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "name",
       "chunks": [
@@ -3882,7 +3882,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#name": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#name": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "name",
       "chunks": [
@@ -3890,7 +3890,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#content": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#content": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "content",
       "chunks": [
@@ -3898,7 +3898,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#content": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#content": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "content",
       "chunks": [
@@ -3906,7 +3906,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#\"title\"": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#\"title\"": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"title\"",
       "chunks": [
@@ -3914,7 +3914,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"title\"": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"title\"": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"title\"",
       "chunks": [
@@ -3922,7 +3922,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#\"base\"": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#\"base\"": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"base\"",
       "chunks": [
@@ -3930,7 +3930,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"base\"": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"base\"": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"base\"",
       "chunks": [
@@ -3938,7 +3938,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#\"meta\"": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#\"meta\"": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"meta\"",
       "chunks": [
@@ -3946,7 +3946,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"meta\"": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"meta\"": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"meta\"",
       "chunks": [
@@ -3954,7 +3954,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#TODO(prateekbh@)": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#TODO(prateekbh@)": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "TODO(prateekbh@)",
       "chunks": [
@@ -3962,7 +3962,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#TODO(prateekbh@)": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#TODO(prateekbh@)": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "TODO(prateekbh@)",
       "chunks": [
@@ -3970,7 +3970,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#\"https": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#\"https": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"https",
       "chunks": [
@@ -3978,7 +3978,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"https": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"https": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"https",
       "chunks": [
@@ -3986,7 +3986,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#here": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#here": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "here",
       "chunks": [
@@ -3994,7 +3994,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#here": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#here": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "here",
       "chunks": [
@@ -4002,7 +4002,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#https": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#https": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "https",
       "chunks": [
@@ -4010,7 +4010,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#https": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#https": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "https",
       "chunks": [
@@ -4018,7 +4018,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#reduceComponentsToState": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#reduceComponentsToState": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "reduceComponentsToState",
       "chunks": [
@@ -4026,7 +4026,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#reduceComponentsToState": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#reduceComponentsToState": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "reduceComponentsToState",
       "chunks": [
@@ -4034,7 +4034,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#headManager": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#headManager": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "headManager",
       "chunks": [
@@ -4042,7 +4042,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#headManager": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#headManager": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "headManager",
       "chunks": [
@@ -4050,7 +4050,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#inAmpMode": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#inAmpMode": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "inAmpMode",
       "chunks": [
@@ -4058,7 +4058,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#inAmpMode": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#inAmpMode": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "inAmpMode",
       "chunks": [
@@ -4066,7 +4066,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#value": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\shared\\lib\\head.js#value": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "value",
       "chunks": [
@@ -4074,7 +4074,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#value": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#value": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "value",
       "chunks": [
@@ -4082,7 +4082,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\app\\page.tsx": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\app\\page.tsx": {
       "id": "(app-client)/./src/app/page.tsx",
       "name": "*",
       "chunks": [
@@ -4090,7 +4090,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\app\\page.tsx#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\app\\page.tsx#": {
       "id": "(app-client)/./src/app/page.tsx",
       "name": "",
       "chunks": [
@@ -4098,7 +4098,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\app\\page.tsx#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\app\\page.tsx#default": {
       "id": "(app-client)/./src/app/page.tsx",
       "name": "default",
       "chunks": [
@@ -4106,7 +4106,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\common\\Button.tsx": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\common\\Button.tsx": {
       "id": "(app-client)/./src/common/Button.tsx",
       "name": "*",
       "chunks": [
@@ -4114,7 +4114,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\common\\Button.tsx#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\common\\Button.tsx#": {
       "id": "(app-client)/./src/common/Button.tsx",
       "name": "",
       "chunks": [
@@ -4122,7 +4122,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\common\\Button.tsx#Button": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\common\\Button.tsx#Button": {
       "id": "(app-client)/./src/common/Button.tsx",
       "name": "Button",
       "chunks": [
@@ -4130,7 +4130,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\About.tsx": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\About.tsx": {
       "id": "(app-client)/./src/components/About.tsx",
       "name": "*",
       "chunks": [
@@ -4138,7 +4138,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\About.tsx#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\About.tsx#": {
       "id": "(app-client)/./src/components/About.tsx",
       "name": "",
       "chunks": [
@@ -4146,7 +4146,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\About.tsx#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\About.tsx#default": {
       "id": "(app-client)/./src/components/About.tsx",
       "name": "default",
       "chunks": [
@@ -4154,7 +4154,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\Banner.tsx": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\Banner.tsx": {
       "id": "(app-client)/./src/components/Banner.tsx",
       "name": "*",
       "chunks": [
@@ -4162,7 +4162,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\Banner.tsx#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\Banner.tsx#": {
       "id": "(app-client)/./src/components/Banner.tsx",
       "name": "",
       "chunks": [
@@ -4170,7 +4170,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\Banner.tsx#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\Banner.tsx#default": {
       "id": "(app-client)/./src/components/Banner.tsx",
       "name": "default",
       "chunks": [
@@ -4178,7 +4178,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\ChangeTheme.tsx": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\ChangeTheme.tsx": {
       "id": "(app-client)/./src/components/ChangeTheme.tsx",
       "name": "*",
       "chunks": [
@@ -4186,7 +4186,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\ChangeTheme.tsx#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\ChangeTheme.tsx#": {
       "id": "(app-client)/./src/components/ChangeTheme.tsx",
       "name": "",
       "chunks": [
@@ -4194,7 +4194,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\ChangeTheme.tsx#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\ChangeTheme.tsx#default": {
       "id": "(app-client)/./src/components/ChangeTheme.tsx",
       "name": "default",
       "chunks": [
@@ -4202,7 +4202,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\Contact.tsx": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\Contact.tsx": {
       "id": "(app-client)/./src/components/Contact.tsx",
       "name": "*",
       "chunks": [
@@ -4210,7 +4210,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\Contact.tsx#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\Contact.tsx#": {
       "id": "(app-client)/./src/components/Contact.tsx",
       "name": "",
       "chunks": [
@@ -4218,7 +4218,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\Contact.tsx#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\Contact.tsx#default": {
       "id": "(app-client)/./src/components/Contact.tsx",
       "name": "default",
       "chunks": [
@@ -4226,7 +4226,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\Experiences.tsx": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\Experiences.tsx": {
       "id": "(app-client)/./src/components/Experiences.tsx",
       "name": "*",
       "chunks": [
@@ -4234,7 +4234,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\Experiences.tsx#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\Experiences.tsx#": {
       "id": "(app-client)/./src/components/Experiences.tsx",
       "name": "",
       "chunks": [
@@ -4242,7 +4242,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\Experiences.tsx#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\Experiences.tsx#default": {
       "id": "(app-client)/./src/components/Experiences.tsx",
       "name": "default",
       "chunks": [
@@ -4250,7 +4250,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\Footer.tsx": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\Footer.tsx": {
       "id": "(app-client)/./src/components/Footer.tsx",
       "name": "*",
       "chunks": [
@@ -4258,7 +4258,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\Footer.tsx#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\Footer.tsx#": {
       "id": "(app-client)/./src/components/Footer.tsx",
       "name": "",
       "chunks": [
@@ -4266,7 +4266,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\Footer.tsx#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\Footer.tsx#default": {
       "id": "(app-client)/./src/components/Footer.tsx",
       "name": "default",
       "chunks": [
@@ -4274,7 +4274,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\Header.tsx": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\Header.tsx": {
       "id": "(app-client)/./src/components/Header.tsx",
       "name": "*",
       "chunks": [
@@ -4282,7 +4282,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\Header.tsx#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\Header.tsx#": {
       "id": "(app-client)/./src/components/Header.tsx",
       "name": "",
       "chunks": [
@@ -4290,7 +4290,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\Header.tsx#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\Header.tsx#default": {
       "id": "(app-client)/./src/components/Header.tsx",
       "name": "default",
       "chunks": [
@@ -4298,7 +4298,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\Technologys.tsx": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\Technologys.tsx": {
       "id": "(app-client)/./src/components/Technologys.tsx",
       "name": "*",
       "chunks": [
@@ -4306,7 +4306,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\Technologys.tsx#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\Technologys.tsx#": {
       "id": "(app-client)/./src/components/Technologys.tsx",
       "name": "",
       "chunks": [
@@ -4314,7 +4314,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\components\\Technologys.tsx#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\Technologys.tsx#default": {
       "id": "(app-client)/./src/components/Technologys.tsx",
       "name": "default",
       "chunks": [
@@ -4322,7 +4322,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\container\\ComplementaryCourses.tsx": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\container\\ComplementaryCourses.tsx": {
       "id": "(app-client)/./src/container/ComplementaryCourses.tsx",
       "name": "*",
       "chunks": [
@@ -4330,7 +4330,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\container\\ComplementaryCourses.tsx#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\container\\ComplementaryCourses.tsx#": {
       "id": "(app-client)/./src/container/ComplementaryCourses.tsx",
       "name": "",
       "chunks": [
@@ -4338,7 +4338,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\container\\ComplementaryCourses.tsx#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\container\\ComplementaryCourses.tsx#default": {
       "id": "(app-client)/./src/container/ComplementaryCourses.tsx",
       "name": "default",
       "chunks": [
@@ -4346,7 +4346,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\container\\Jobs.tsx": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\container\\Jobs.tsx": {
       "id": "(app-client)/./src/container/Jobs.tsx",
       "name": "*",
       "chunks": [
@@ -4354,7 +4354,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\container\\Jobs.tsx#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\container\\Jobs.tsx#": {
       "id": "(app-client)/./src/container/Jobs.tsx",
       "name": "",
       "chunks": [
@@ -4362,7 +4362,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\container\\Jobs.tsx#default": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\container\\Jobs.tsx#default": {
       "id": "(app-client)/./src/container/Jobs.tsx",
       "name": "default",
       "chunks": [
@@ -4370,7 +4370,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\context\\theme-context.tsx": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\context\\theme-context.tsx": {
       "id": "(app-client)/./src/context/theme-context.tsx",
       "name": "*",
       "chunks": [
@@ -4378,7 +4378,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\context\\theme-context.tsx#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\context\\theme-context.tsx#": {
       "id": "(app-client)/./src/context/theme-context.tsx",
       "name": "",
       "chunks": [
@@ -4386,7 +4386,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\context\\theme-context.tsx#ThemeContext": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\context\\theme-context.tsx#ThemeContext": {
       "id": "(app-client)/./src/context/theme-context.tsx",
       "name": "ThemeContext",
       "chunks": [
@@ -4394,7 +4394,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\context\\theme-context.tsx#ThemeProvider": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\context\\theme-context.tsx#ThemeProvider": {
       "id": "(app-client)/./src/context/theme-context.tsx",
       "name": "ThemeProvider",
       "chunks": [
@@ -4402,7 +4402,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\leand\\portfolio-next\\web\\src\\app\\globals.css#": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\app\\globals.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
