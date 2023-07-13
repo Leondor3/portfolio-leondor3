@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div
       className={`${inter.variable} text-gray-100 ${
-        theme == false ? "bg-[#12141d]" : "bg-white"
+        theme == false ? "bg-zinc-950" : "bg-white"
       }`}
     >
       <Header />

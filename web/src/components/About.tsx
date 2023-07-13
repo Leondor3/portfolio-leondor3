@@ -58,7 +58,7 @@ export default function About() {
 
   return (
     <div
-      className="relative w-full py-16 max-sm:px-6 md:py-20 lg:py-28"
+      className={`${theme == !false ? "bg-white" : "bg-bg-dark-secundary"} "relative w-full py-16 max-sm:px-6 md:py-20 lg:py-28"`}
       id="about"
     >
       <div className="container">
@@ -72,7 +72,7 @@ export default function About() {
               className={`${theme == false ? "text-slate-400" : "text-zinc-800"
                 } paragraphLong`}
             >
-              Meu nome é Leandro de Araujo dos Santos, tenho 24 anos e sou
+              Meu nome é Leandro de Araujo dos Santos, tenho 25 anos e sou
               desenvolvedor front-end com mais de um ano de experiência, sou
               apaixonado por criar interfaces de usuário atraentes e intuitivas.
               Tenho habilidades sólidas em HTML, CSS e JavaScript, além de
@@ -84,13 +84,7 @@ export default function About() {
               como Figma, Photoshop e Adobe XD. Tenho conhecimento em
               gerenciamento de estado global usando Redux e Context API, e
               também estou familiarizado com bibliotecas de componentes UI, como
-              Tailwind CSS, Styled Components, Sass, Less e CSS em geral. Sou
-              dedicado, criativo e estou sempre em busca de aprimorar minhas
-              habilidades para fornecer as melhores soluções front-end. Estou
-              entusiasmado em contribuir com projetos desafiadores e colaborar
-              com equipes talentosas. Se você está procurando um desenvolvedor
-              front-end apaixonado por criar interfaces excepcionais, estou
-              disponível para oportunidades emocionantes.
+              Tailwind CSS, Styled Components, Sass, Less e CSS em geral.
             </p>
             <div className="flex w-full gap-2">
               <Link href="https://www.linkedin.com/in/leandro-de-araujo/"

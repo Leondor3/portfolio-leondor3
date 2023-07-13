@@ -11,7 +11,7 @@ interface ThemeProps {
 }
 
 export const ThemeContext = createContext<ThemeContextType>({
-  theme: false,
+  theme: true,
   setTheme: () => {},
 });
 
