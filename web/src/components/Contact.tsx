@@ -9,6 +9,7 @@ import { Button } from "@/common/Button";
 import TitleSide from "@/container/TitleSide";
 import { ThemeContext } from "@/context/theme-context";
 import { api } from "@/lib/api";
+import { LinkedinLogo } from "@phosphor-icons/react";
 
 const schema = yup
   .object({
@@ -64,76 +65,6 @@ export default function Contact() {
       <div className="container">
         <div className="flex items-start justify-center max-lg:flex-col max-lg:px-6">
           <TitleSide />
-          <div className="flex w-96 flex-col items-start justify-start mt-4 max-lg:w-full">
-            <form
-              className="w-full"
-              onSubmit={handleSubmit(onSubmit)}
-              ref={formRef}
-            >
-              <div className="flex flex-col gap-4">
-                <div className="flex flex-col">
-                  <label
-                    className={`${
-                      theme == false ? "text-slate-400" : "text-zinc-800"
-                    }`}
-                  >
-                    Seu Nome:
-                  </label>
-                  <Input
-                    placeholder="Digite seu nome"
-                    register={register("username")}
-                  />
-                  <p className="mt-2 text-red-600">
-                    {errors.username?.message}
-                  </p>
-                </div>
-                <div className="flex flex-col">
-                  <label
-                    className={`${
-                      theme == false ? "text-slate-400" : "text-zinc-800"
-                    }`}
-                  >
-                    Assunto:
-                  </label>
-                  <Input
-                    placeholder="Digite seu nome"
-                    register={register("subject")}
-                  />
-                  <p className="mt-2 text-red-600">{errors.subject?.message}</p>
-                </div>
-                <div className="flex flex-col">
-                  <label
-                    className={`${
-                      theme == false ? "text-slate-400" : "text-zinc-800"
-                    }`}
-                  >
-                    Messagem:
-                  </label>
-                  <textarea
-                    className={`${
-                      theme == false ? "bg-bg-dark-secundary" : "bg-zinc-200"
-                    } mt-2 rounded-lg p-2 outline-none placeholder:text-zinc-500 focus:border focus:border-zinc-700`}
-                    placeholder="Do que você precisa?"
-                    {...register("message")}
-                  />
-                  <p className="mt-2 text-red-600">{errors.message?.message}</p>
-                </div>
-                <Button isHighlight disabled={isLoading}>
-                  <span className="text-white">Entrar em Contato</span>
-                </Button>
-                {showMessage && (
-                  <div className="mt-2 rounded-lg text-sm text-green-500">
-                    {message}
-                  </div>
-                )}
-                {showErrorMessage && (
-                  <div className="mt-2 rounded-lg text-sm text-red-500">
-                    {errorMessage}
-                  </div>
-                )}
-              </div>
-            </form>
-          </div>
         </div>
       </div>
     </div>

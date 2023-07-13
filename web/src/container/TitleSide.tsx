@@ -1,3 +1,4 @@
+import SectionTitle from "@/common/SectionTitle";
 import { ThemeContext } from "@/context/theme-context";
 import React, { useContext } from "react";
 
@@ -6,23 +7,7 @@ export default function TitleSide() {
 
   return (
     <div className="flex flex-col justify-start gap-6">
-      <h1
-        className={`${
-          theme == false ? "text-white" : "text-zinc-800"
-        } text-4xl font-bold`}
-      >
-        Vamos nos conectar!
-      </h1>
-      <p
-        className={`${
-          theme == false ? "text-slate-400" : "text-zinc-800"
-        } max-w-[500px]`}
-      >
-        Ficarei muito feliz em saber de você! Se você tem alguma dúvida,
-        sugestão, proposta de trabalho ou simplesmente deseja dizer olá,
-        sinta-se à vontade para entrar em contato. Estou sempre aberto a novas
-        oportunidades
-      </p>
+      <SectionTitle title="Vamos nos conectar" section="Contato" center/>
     </div>
   );
 }

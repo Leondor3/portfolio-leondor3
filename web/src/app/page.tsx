@@ -20,7 +20,7 @@ export default function Home() {
 
   return (
     <div
-      className={`${inter.variable} font-sans text-gray-100 ${
+      className={`${inter.variable} text-gray-100 ${
         theme == false ? "bg-[#12141d]" : "bg-white"
       }`}
     >
@@ -31,7 +31,7 @@ export default function Home() {
       <Technology />
       <SectionExperience />
       <Works />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </div>
   );

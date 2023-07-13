@@ -758,6 +758,40 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./src/context/theme-context.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/context/theme-context.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/context/theme-context.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "ThemeContext": {
+        "id": "(sc_client)/./src/context/theme-context.tsx",
+        "name": "ThemeContext",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "ThemeProvider": {
+        "id": "(sc_client)/./src/context/theme-context.tsx",
+        "name": "ThemeProvider",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./src/assets/LEO.png": {
       "*": {
         "id": "(sc_client)/./src/assets/LEO.png",
@@ -1424,32 +1458,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./src/components/Contact.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/Contact.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/Contact.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/Contact.tsx",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./src/components/Experiences.tsx": {
       "*": {
         "id": "(sc_client)/./src/components/Experiences.tsx",
@@ -1605,49 +1613,15 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
-    },
-    "(app-client)/./src/context/theme-context.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/context/theme-context.tsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/context/theme-context.tsx",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "ThemeContext": {
-        "id": "(sc_client)/./src/context/theme-context.tsx",
-        "name": "ThemeContext",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "ThemeProvider": {
-        "id": "(sc_client)/./src/context/theme-context.tsx",
-        "name": "ThemeProvider",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
     }
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\app\\page": [
-      "static/css/app/page.css"
-    ],
     "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\app\\layout": [
       "static/css/app/layout.css"
+    ],
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\app\\page": [
+      "static/css/app/page.css"
     ]
   },
   "clientModules": {
@@ -3379,6 +3353,45 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\app\\globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\context\\theme-context.tsx": {
+      "id": "(app-client)/./src/context/theme-context.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\context\\theme-context.tsx#": {
+      "id": "(app-client)/./src/context/theme-context.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\context\\theme-context.tsx#ThemeContext": {
+      "id": "(app-client)/./src/context/theme-context.tsx",
+      "name": "ThemeContext",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\context\\theme-context.tsx#ThemeProvider": {
+      "id": "(app-client)/./src/context/theme-context.tsx",
+      "name": "ThemeProvider",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\node_modules\\next\\font\\google\\target.css?{\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"import\":\"Inter\",\"path\":\"src\\\\app\\\\page.tsx\",\"variableName\":\"inter\"}#": {
       "id": "null",
       "name": "default",
@@ -4202,30 +4215,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\Contact.tsx": {
-      "id": "(app-client)/./src/components/Contact.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\Contact.tsx#": {
-      "id": "(app-client)/./src/components/Contact.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\Contact.tsx#default": {
-      "id": "(app-client)/./src/components/Contact.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\components\\Experiences.tsx": {
       "id": "(app-client)/./src/components/Experiences.tsx",
       "name": "*",
@@ -4369,45 +4358,6 @@ self.__RSC_MANIFEST={
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
-    },
-    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\context\\theme-context.tsx": {
-      "id": "(app-client)/./src/context/theme-context.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\context\\theme-context.tsx#": {
-      "id": "(app-client)/./src/context/theme-context.tsx",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\context\\theme-context.tsx#ThemeContext": {
-      "id": "(app-client)/./src/context/theme-context.tsx",
-      "name": "ThemeContext",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\context\\theme-context.tsx#ThemeProvider": {
-      "id": "(app-client)/./src/context/theme-context.tsx",
-      "name": "ThemeProvider",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Projetos\\portfolio-repo\\portfolio-leondor3\\web\\src\\app\\globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
     }
   }
 }
